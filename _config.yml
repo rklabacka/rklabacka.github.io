@@ -2,14 +2,13 @@ title:              Randy Klabacka
 email:              klabacka.randy@gmail.com
 description:        Evolutionary Biologist
 author:             Randy Klabacka
-baseurl:            "/startbootstrap-clean-blog-jekyll"
-url:                "https://blackrockdigital.github.io"
+url:                "RandyKlabacka.com"
 
 # Social Profiles
-twitter_username:   SBootstrap
-github_username:    BlackrockDigital
-facebook_username:  StartBootstrap
-linkedin_username:
+twitter_username:   r_klabacka
+github_username:    rklabacka
+facebook_username:  klabacka
+linkedin_username:  klabacka
 
 # Add your google-analytics ID here to activate google analytics
 google_analytics:   UA-XXXXXXXXX-X # out your google-analytics code
