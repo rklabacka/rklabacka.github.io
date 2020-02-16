@@ -21,7 +21,7 @@
   <link rel="stylesheet" href="/assets/vendor/fontawesome-free/css/all.min.css">
 
   <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="http://localhost:4000/">
+  <link rel="canonical" href="http://localhost:4000/photos/Trees/Trees.html">
   <link rel="alternate" type="application/rss+xml" title="Randy Klabacka" href="/feed.xml">
 
 </head>
@@ -76,11 +76,9 @@
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
-        <div class="mx-auto">
+        <div class="col-lg-8 col-md-10 mx-auto">
           <div class="page-heading">
-            <h1>Randy Klabacka</h1>
-            
-            <span class="subheading">Evolutionary Biologist</span>
+            <h1></h1>
             
           </div>
         </div>
@@ -92,87 +90,166 @@
     <div class="row">
       <div class="mx-auto">
 
-        <h4 itemprop="name">About Me</h4>
+        <!DOCTYPE html>
 
-<p>I'm a PhD candidate at Auburn University broadly interested in using genomics and physiology to examine biological phenomena in the context of evolution. I mostly work in squamate reptile systems (because I have an unexplainable love for them!), but I am also interested in evolutionary questions better addressed using other systems (e.g., amphibians, crustaceans, birds, insects, and "fish"). In addition to my life as a graduate student, I also enjoy sports and spending time in the outdoors with my family. Feel free to contact me with any questions!</p>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
 
-<h4 itemprop="name"><center>Graduate Research</center></h4>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-<center><img class="col-lg-8 col-md-10 mx-auto" src="/img/Portrait_SittingBullGarter.jpg" alt="Grad Research"></center>
+.header {
+  text-align: center;
+  padding: 32px;
+}
 
-<p>In 2016 I began a PhD with <a href="https://www.schwartzlab-ecoevolutionarygenomics.org" target="_blank">Dr. Tonia Schwartz</a></h4> and <a href="https://phyletica.org" target="_blank">Dr. Jamie Oaks</a></h4> at Auburn University. I am captivated by the coevolutionary relationship between mitochondrial and nuclear genomes. I am interested in the role sexual reproduction plays in maintaining a healthy mitonuclear marriage, and analyzing the effects of parthenogenesis on mitochondrial dysfunction using physiological methods within a phylogenetic context.</p>
+.row {
+  display: -ms-flexbox; /* IE 10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE 10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
 
-<h4 itemprop="name"><center>Undergraduate Research</center></h4>
+/* Create two equal columns that sits next to each other */
+.column {
+  -ms-flex: 50%; /* IE 10 */
+  flex: 50%;
+  padding: 0 4px;
+}
 
-<center><img class="col-lg-8 col-md-10 mx-auto" src="/img/Portrait_Boiga_cynodon.jpg" alt="Undergrad Research"></center>
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
 
+/* Style the buttons */
+.btn {
+  border: none;
+  outline: none;
+  padding: 10px 16px;
+  background-color: #f1f1f1;
+  cursor: pointer;
+  font-size: 18px;
+}
 
-<p>As an undergraduate I joined the labs of <a href="https://siteslab.byu.edu" target="_blank">Dr. Jack Sites</a> and <a href="https://hancocklab.byu.edu" target="_blank">Dr. Chad Hancock</a></h4>. During this time, I discovered a love for hypothesis-driven science. I worked on projects centering on mitochondrial bioenergetics and phylogeography of Central America and Southeast Asia. Within these opportunities I developed questions, collected and analyzed data, and made inferences regarding our findings. I am very grateful to Jack and Chad, and mentors <a href="https://perryleewoodjr.com" target="_blank">Dr. Perry Lee "JR" Wood</a>, <a href="https://biology.byu.edu/kauwe-lab" target="_blank">Dr. John "Keoni" Kauwe</a>, and <a href="https://adamslab.byu.edu/People/Profiles/ByronJAdams,PhD.aspx" target="_blank">Dr. Byron Adams</a> for helping me cultivate a passion for evolutionary biology.</p>
+.btn:hover {
+  background-color: #ddd;
+}
 
-<h4 itemprop="name"><center>Early Life</center></h4>
+.btn.active {
+  background-color: #666;
+  color: white;
+}
 
-<center><img class="col-lg-8 col-md-10 mx-auto" src="/img/RandyBryceRedRock.jpg" alt="Early Life" "></center>
+img {
+    max-width:100%;
+    height:auto;
+}
+</style>
+</head>
+<body>
 
-<p>Growing up in the unforgiving Mojave Desert, one quickly learns of life’s struggle for existence. The persistence of animals in such an environment fascinated me, particularly the reptile biodiversity in the backyard of my childhood home. Because my family did not have cable TV or videogame consoles, my brothers and I spent our time outside exploring, catching lizards, and digging up fossils.</p>
+<!-- Header -->
+<div class="header" id="myHeader">
+  <h1>Image Grid</h1>
+  <p>Click on the buttons to change the grid view.</p>
+  <button class="btn" onclick="one()">1</button>
+  <button class="btn active" onclick="two()">2</button>
+  <button class="btn" onclick="four()">4</button>
+</div>
 
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="/img/Caleophus_intestinalis_2.JPG" 					style="width:100%">
+    <img src="/img/Caleophus_intestinalis_2.JPG" 				style="width:100%">
+    <img src="/img/Cnemaspis.neomwani1.JPG" 					style="width:100%">
+    <img src="/img/Abarorana_luctosa_FH_7.JPG" 				style="width:100%">
+    <img src="/img/Asthenodipsas_lasgalenensis_CH10.JPG" 					style="width:100%">
+    <img src="/img/Boiga_cynodon_1.JPG" 				style="width:100%">
+    <img src="/img/Boiga_cynodon_1.JPG" 				style="width:100%">
+  </div>
+  <div class="column">
+    <img src="/img/Bronchocela_shenlong_FH_5.JPG" 				style="width:100%">
+    <img src="/img/Caleophus_intestinalis_2.JPG" 	style="width:100%">
+    <img src="/img/Cnemaspis.neomwani1.JPG" 		style="width:100%">
+    <img src="/img/Abarorana_luctosa_FH_7.JPG" 					style="width:100%">
+    <img src="/img/Asthenodipsas_lasgalenensis_CH10.JPG" 	style="width:100%">
+    <img src="/img/Boiga_cynodon_1.JPG" 				style="width:100%">
+  </div>  
+  <div class="column">
+    <img src="/img/Bronchocela_shenlong_FH_5.JPG" 				style="width:100%">
+    <img src="/img/Caleophus_intestinalis_2.JPG" 			style="width:100%">
+    <img src="/img/Cnemaspis.neomwani1.JPG" 				style="width:100%">
+    <img src="/img/Abarorana_luctosa_FH_7.JPG" 			style="width:100%">
+    <img src="/img/Asthenodipsas_lasgalenensis_CH10.JPG" 				style="width:100%">
+    <img src="/img/Boiga_cynodon_1.JPG" 			style="width:100%">
+    <img src="/img/Boiga_cynodon_1.JPG" 			style="width:100%">
+  </div>
+  <div class="column">
+    <img src="/img/Bronchocela_shenlong_FH_5.JPG" 				style="width:100%">
+    <img src="/img/Caleophus_intestinalis_2.JPG" 	style="width:100%">
+    <img src="/img/Cnemaspis.neomwani1.JPG" 		style="width:100%">
+    <img src="/img/Abarorana_luctosa_FH_7.JPG" 					style="width:100%">
+    <img src="/img/Asthenodipsas_lasgalenensis_CH10.JPG" 	style="width:100%">
+    <img src="/img/Boiga_cynodon_1.JPG" 				style="width:100%">
+  </div>
+</div>
 
+<script>
+// Get the elements with class="column"
+var elements = document.getElementsByClassName("column");
 
+// Declare a loop variable
+var i;
 
+// Full-width images
+function one() {
+    for (i = 0; i < elements.length; i++) {
+    elements[i].style.msFlex = "100%";  // IE10
+    elements[i].style.flex = "100%";
+  }
+}
 
+// Two images side by side
+function two() {
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.msFlex = "50%";  // IE10
+    elements[i].style.flex = "50%";
+  }
+}
 
-        <!-- Home Post List -->
-        
+// Four images side by side
+function four() {
+  for (i = 0; i < elements.length; i++) {
+    elements[i].style.msFlex = "25%";  // IE10
+    elements[i].style.flex = "25%";
+  }
+}
 
-        <article class="post-preview">
-          <a href="/2020/01/10/NZ.html">
-            <h2 class="post-title">Touring New Zealand</h2>
-            
-            <h3 class="post-subtitle">South Island</h3>
-            
-          </a>
-          <p class="post-meta">Posted by
-            
-            Randy Klabacka
-            
-            on
-            January 10, 2020 &middot; <span class="reading-time" title="Estimated read time">
-  
-   1 min  read </span>
-            
-          </p>
-        </article>
+// Add active class to the current button (highlight it)
+var header = document.getElementById("myHeader");
+var btns = header.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+</script>
 
-        <hr>
+</body>
+</html>
 
-        
-
-        <article class="post-preview">
-          <a href="/2020/01/05/wch9.html">
-            <h2 class="post-title">World Congress of Herpetology</h2>
-            
-            <h3 class="post-subtitle">Dunedin, New Zealand</h3>
-            
-          </a>
-          <p class="post-meta">Posted by
-            
-            Randy Klabacka
-            
-            on
-            January 05, 2020 &middot; <span class="reading-time" title="Estimated read time">
-  
-   1 min  read </span>
-            
-          </p>
-        </article>
-
-        <hr>
-
-        
-
-        <!-- Pager -->
-        <div class="clearfix">
-          <a class="btn btn-primary float-right" href="/posts">View All Posts &rarr;</a>
-        </div>
 
       </div>
     </div>
