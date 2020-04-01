@@ -56,7 +56,7 @@
           <a class="nav-link" href="/posts">Blog</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/photos">Photos</a>
+          <a class="nav-link" href="/gallery">Gallery</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/contact">Contact</a>
@@ -147,10 +147,48 @@ body {
   color: white;
 }
 
+.content_img{
+ position: relative;
+ max-width:100%;
+ height:auto;
+ float: left;
+ margin-right: 10px;
+}
+
+/* Child Text Container */
+.content_img div{
+ position: absolute;
+ bottom: 0;
+ right: 0;
+ background: black;
+ color: white;
+ margin-bottom: 5px;
+ font-family: sans-serif;
+ font-size: 12px;
+ opacity: 0;
+ visibility: hidden;
+ -webkit-transition: visibility 0s, opacity 0.5s linear; 
+ transition: visibility 0s, opacity 0.5s linear;
+}
+
+/* Hover on Parent Container */
+.content_img:hover{
+ cursor: pointer;
+}
+
+.content_img:hover div{
+ width: 150px;
+ padding: 8px 15px;
+ visibility: visible;
+ opacity: 0.7; 
+}
+
 img {
     max-width:100%;
     height:auto;
 }
+
+
 </style>
 </head>
 <body>
@@ -165,65 +203,224 @@ img {
 <!-- Photo Grid -->
 <div class="row"> 
   <div class="column">
-    <img src="/img/SouthwestUSA/Taxa/2018_Crotophytus_collaris_Colorado_3.JPG" 					style="width:100%">
-    <img src="/img/SouthwestUSA/Taxa/2017_Holbrookia_maculata_WhiteSands1.jpg" 				style="width:100%">
-    <img src="/img/SouthwestUSA/Taxa/2017_Aspidoscelis_tesselatus_jail_1.jpg" 					style="width:100%">
-    <img src="/img/SouthwestUSA/Taxa/2019_Callisaurus_draconoides_SabinoCanyon.jpg" 				style="width:100%">
-    <img src="/img/SouthwestUSA/Taxa/2018_Aspidoscelis_marmoratus_Indio_1.jpg" 					style="width:100%">
-    <img src="/img/SouthwestUSA/Taxa/2018_Uta_stansburiana_2.jpg" 				style="width:100%">
-    <img src="/img/SouthwestUSA/Taxa/2017_Phrynosoma_cornutum_ElephantButte_1.jpg" 				style="width:100%">
-    <img src="/img/SouthwestUSA/Taxa/2017_Sceloporus_bimaculosus_ElephantButte_1.jpg"        style="width:100%">
-    <img src="/img/SouthwestUSA/Taxa/2018_Holbrookia_maculata_OliverLee.jpg"        style="width:100%">
-    <img src="/img/SouthwestUSA/Taxa/2018_Crotalus_atrox_OliverLee_2.jpg"        style="width:100%">
-    <img src="/img/SouthwestUSA/Taxa/2017_Yucca.jpg"        style="width:100%">
-    <img src="/img/SouthwestUSA/Taxa/2018_Aspidoscelis_gularis_Lubbock.jpg"        style="width:100%">
-    <img src="/img/SouthwestUSA/Taxa/2019_Crotalus_lepidus_BigBend.jpg"        style="width:100%">
+    <div class="content_img">
+      <img src="/img/SouthwestUSA/Taxa/2018_Crotophytus_collaris_Colorado_3.JPG" 					style="width:100%">
+      <div> <i>Crotophytus collaris</i> photo: Randy Klabacka</div>
+    </div>
+    <div class="content_img">
+      <img src="/img/SouthwestUSA/Taxa/2017_Holbrookia_maculata_WhiteSands1.jpg"        style="width:100%">
+      <div> <i>Holbrookia maculata</i> photo: Randy Klabacka</div>
+    </div>
+    <div class="content_img">
+      <img src="/img/SouthwestUSA/Taxa/2017_Aspidoscelis_tesselatus_jail_1.jpg" 					style="width:100%">
+      <div> <i>Aspidoscelis tesselatus</i> photo: Paulina Klabacka</div>
+    </div>
+    <div class="content_img">
+      <img src="/img/SouthwestUSA/Taxa/2019_Callisaurus_draconoides_SabinoCanyon.jpg"         style="width:100%">
+      <div> <i>Aspidoscelis tesselatus</i> photo: Randy Klabacka</div>
+    </div>
+    <div class="content_img">
+      <img src="/img/SouthwestUSA/Taxa/2018_Aspidoscelis_marmoratus_Indio_1.jpg"          style="width:100%">
+      <div> <i>Aspidoscelis marmoratus</i> photo: Miles Horne</div>
+    </div>
+    <div class="content_img">
+      <img src="/img/SouthwestUSA/Taxa/2018_Uta_stansburiana_2.jpg"         style="width:100%">
+      <div> <i>Uta stansburiana</i> photo: Miles Horne</div>
+    </div>
+    <div class="content_img">
+      <img src="/img/SouthwestUSA/Taxa/2017_Phrynosoma_cornutum_ElephantButte_1.jpg"        style="width:100%">
+      <div> <i>Phrynosoma cornutum</i> photo: Randy Klabacka</div>
+    </div>
+    <div class="content_img">
+      <img src="/img/SouthwestUSA/Taxa/2017_Sceloporus_bimaculosus_ElephantButte_1.jpg"        style="width:100%">
+      <div> <i>Sceloporus bimaculosus</i> photo: Paulina Klabacka</div>
+    </div>
+    <div class="content_img">
+      <img src="/img/SouthwestUSA/Taxa/2018_Holbrookia_maculata_OliverLee.jpg"        style="width:100%">
+      <div> <i>Holbrookia maculata</i> photo: Miles Horne</div>
+    </div>
+    <div class="content_img">
+      <img src="/img/SouthwestUSA/Taxa/2018_Crotalus_atrox_OliverLee_2.jpg"        style="width:100%">
+      <div> <i>Crotalus atrox</i> photo: Miles Horne</div>
+    </div>
+    <div class="content_img">
+      <img src="/img/SouthwestUSA/Taxa/2017_Yucca.jpg"        style="width:100%">
+      <div> <i>Yucca elata</i> photo: Randy Klabacka</div>
+    </div>
+    <div class="content_img">
+      <img src="/img/SouthwestUSA/Taxa/2018_Aspidoscelis_gularis_Lubbock.jpg"        style="width:100%">
+      <div> <i>Aspidoscelis gularis</i> photo: Miles Horne</div>
+    </div>
+    <div class="content_img">
+      <img src="/img/SouthwestUSA/Taxa/2019_Crotalus_lepidus_BigBend.jpg"        style="width:100%">
+      <div> <i>Crotalus lepidus</i> photo: Randy Klabacka</div>
+    </div>
   </div>
   <div class="column">
-    <img src="/img/SouthwestUSA/Taxa/2019_Coluber_flagellum_BigBend_1.jpg"          style="width:100%">
-    <img src="/img/SouthwestUSA/Taxa/2017_Crotalus_atrox_Alamogordo_5.jpg"        style="width:100%">
-    <img src="/img/SouthwestUSA/Taxa/2017_SkullCacti_Alamogordo.jpg"           style="width:100%">
-    <img src="/img/SouthwestUSA/Taxa/2019_Sceloporus_clarkii_SabinoCanyon_2.jpg"         style="width:100%">
-    <img src="/img/SouthwestUSA/Taxa/2018_Pituophis_catenifer_BigBend.jpg"           style="width:100%">
-    <img src="/img/SouthwestUSA/Taxa/2017_Gambelia_wislizenii_ElephantButte_1.jpg"         style="width:100%">
-    <img src="/img/SouthwestUSA/Taxa/2017_Aspidoscelis_tesselatus_Alamogordo_2.jpg"        style="width:100%">
-    <img src="/img/SouthwestUSA/Taxa/2017_Aspidoscelis_neomexicanus_Albuq_1.jpg"        style="width:100%">
-    <img src="/img/SouthwestUSA/Taxa/2018_Incilius_nebulifer_Dallas.jpg"        style="width:100%">
-    <img src="/img/SouthwestUSA/Taxa/2018_Coleonyx_reticulatus_BigBend_3.jpg"        style="width:100%">
-    <img src="/img/SouthwestUSA/Taxa/2017_Thamnophis_BullFalls_5.jpg"        style="width:100%">
-    <img src="/img/SouthwestUSA/Taxa/2017_Rana_catesbaenus_Socorro.jpg"        style="width:100%">
-    <img src="/img/SouthwestUSA/Taxa/2019_Rhinocheilus_lecontei_BigBend.JPG"        style="width:100%">
+    <div class="content_img">
+      <img src="/img/SouthwestUSA/Taxa/2019_Coluber_flagellum_BigBend_1.jpg"          style="width:100%">
+      <div> <i>Masticophis flagellum</i> photo: Randy Klabacka</div>
+    </div>
+    <div class="content_img">
+      <img src="/img/SouthwestUSA/Taxa/2017_Crotalus_atrox_Alamogordo_5.jpg"        style="width:100%">
+      <div> <i>Crotalus atrox</i> photo: Paulina Klabacka</div>
+    </div>
+    <div class="content_img">
+      <img src="/img/SouthwestUSA/Taxa/2017_SkullCacti_Alamogordo.jpg"           style="width:100%">
+      <div> <i>Canis latrans</i> photo: Randy Klabacka</div>
+    </div>
+    <div class="content_img">
+      <img src="/img/SouthwestUSA/Taxa/2019_Sceloporus_clarkii_SabinoCanyon_2.jpg"         style="width:100%">
+      <div> <i>Sceloporus clarkii</i> photo: Kerry Cobb</div>
+    </div>
+    <div class="content_img">
+      <img src="/img/SouthwestUSA/Taxa/2018_Pituophis_catenifer_BigBend.jpg"           style="width:100%">
+      <div> <i>Pituophis catenifer</i> photo: Randy Klabacka</div>
+    </div>
+    <div class="content_img">
+      <img src="/img/SouthwestUSA/Taxa/2017_Gambelia_wislizenii_ElephantButte_1.jpg"         style="width:100%">
+      <div> <i>Gambelia wislizenii</i> photo: Paulina Klabacka</div>
+    </div>
+    <div class="content_img">
+      <img src="/img/SouthwestUSA/Taxa/2017_Aspidoscelis_tesselatus_Alamogordo_2.jpg"        style="width:100%">
+      <div> <i>Aspidoscelis tesselatus</i> photo: Paulina Klabacka</div>
+    </div>
+    <div class="content_img">
+      <img src="/img/SouthwestUSA/Taxa/2017_Aspidoscelis_neomexicanus_Albuq_1.jpg"        style="width:100%">
+      <div> <i>Aspidoscelis neomexicanus</i> photo: Paulina Klabacka</div>
+    </div>
+    <div class="content_img">
+      <img src="/img/SouthwestUSA/Taxa/2018_Incilius_nebulifer_Dallas.jpg"        style="width:100%">
+      <div> <i>Incilius nebulifer</i> photo: Miles Horne</div>
+    </div>
+    <div class="content_img">
+      <img src="/img/SouthwestUSA/Taxa/2018_Coleonyx_reticulatus_BigBend_3.jpg"        style="width:100%">
+      <div> <i>Coleonyx reticulatus</i> photo: Randy Klabacka</div>
+    </div>
+    <div class="content_img">
+      <img src="/img/SouthwestUSA/Taxa/2017_Thamnophis_BullFalls_5.jpg"        style="width:100%">
+      <div> <i>Thamnophis cyrtopsis</i> photo: Paulina Klabacka</div>
+    </div>
+    <div class="content_img">
+      <img src="/img/SouthwestUSA/Taxa/2017_Rana_catesbaenus_Socorro.jpg"        style="width:100%">
+      <div> <i>Rana catesbaenus, NM</i> photo: Paulina Klabacka</div>
+    </div>
+    <div class="content_img">
+      <img src="/img/SouthwestUSA/Taxa/2019_Rhinocheilus_lecontei_BigBend.JPG"        style="width:100%">
+      <div> <i>Rhinocheilus lecontei</i> photo: Randy Klabacka</div>
+    </div>
  </div>
   <div class="column">
-    <img src="/img/SouthwestUSA/Taxa/2017_HavardAgave_1.jpg"          style="width:100%">
-    <img src="/img/SouthwestUSA/Taxa/2019_Sceloporus_magister_SabinoCanyon.jpg"        style="width:100%">
-    <img src="/img/SouthwestUSA/Taxa/2017_Crotophytus_collaris_Rockhound_2.jpg"           style="width:100%">
-    <img src="/img/SouthwestUSA/Taxa/2017_Cophosaurus_texanum.jpg"         style="width:100%">
-    <img src="/img/SouthwestUSA/Taxa/2019_Aspidoscelis_stictogrammus_SabinoCanyon_2.jpg"           style="width:100%">
-    <img src="/img/SouthwestUSA/Taxa/2018_Scaphiopus_couchii_Laredo.jpg"         style="width:100%">
-    <img src="/img/SouthwestUSA/Taxa/2017_OliverLee_Exsanguis3.jpg"        style="width:100%">
-    <img src="/img/SouthwestUSA/Taxa/2017_Cholla.jpg"        style="width:100%">
-    <img src="/img/SouthwestUSA/Taxa/2018_Salvadora_grahamiae_Indio.jpg"        style="width:100%">
-    <img src="/img/SouthwestUSA/Taxa/2018_Aspidoscelis_inornatus_ElephantButte_1.jpg"        style="width:100%">
-    <img src="/img/SouthwestUSA/Taxa/2017_Sceloporus_cowlesi_Pecos_2.jpg"        style="width:100%">
-    <img src="/img/SouthwestUSA/Taxa/2017_NestingMourningDove_Alamogordo.jpg"        style="width:100%">
-    <img src="/img/SouthwestUSA/Taxa/2018_Plestiodon_obsoletus_ElephantButte.jpg"        style="width:100%">
+    <div class="content_img">
+      <img src="/img/SouthwestUSA/Taxa/2017_HavardAgave_1.jpg"          style="width:100%">
+      <div> <i>Agava havardiana</i> photo: Randy Klabacka</div>
+    </div>
+    <div class="content_img">
+      <img src="/img/SouthwestUSA/Taxa/2019_Sceloporus_magister_SabinoCanyon.jpg"        style="width:100%">
+      <div> <i>Sceloporus magister</i> photo: Randy Klabacka</div>
+    </div>
+    <div class="content_img">
+      <img src="/img/SouthwestUSA/Taxa/2017_Crotophytus_collaris_Rockhound_2.jpg"           style="width:100%">
+      <div> <i>Crotophytus collaris</i> photo: Paulina Klabacka</div>
+    </div>
+    <div class="content_img">
+      <img src="/img/SouthwestUSA/Taxa/2017_Cophosaurus_texanum.jpg"         style="width:100%">
+      <div> <i>Cophosaurus texanum</i> photo: Paulina Klabacka</div>
+    </div>
+    <div class="content_img">
+      <img src="/img/SouthwestUSA/Taxa/2019_Aspidoscelis_stictogrammus_SabinoCanyon_2.jpg"           style="width:100%">
+      <div> <i>Aspidoscelis stictogrammus</i> photo: Randy Klabacka</div>
+    </div>
+    <div class="content_img">
+      <img src="/img/SouthwestUSA/Taxa/2018_Scaphiopus_couchii_Laredo.jpg"         style="width:100%">
+      <div> <i>Scaphiopus couchii</i> photo: Randy Klabacka</div>
+    </div>
+    <div class="content_img">
+      <img src="/img/SouthwestUSA/Taxa/2017_OliverLee_Exsanguis3.jpg"        style="width:100%">
+      <div> <i>Aspidoscelis exanguis</i> photo: Paulina Klabacka</div>
+    </div>
+    <div class="content_img">
+      <img src="/img/SouthwestUSA/Taxa/2017_Cholla.jpg"        style="width:100%">
+      <div> <i>Cylindropuntia imbricata</i> photo: Randy Klabacka</div>
+    </div>
+    <div class="content_img">
+      <img src="/img/SouthwestUSA/Taxa/2018_Salvadora_grahamiae_Indio.jpg"        style="width:100%">
+      <div> <i>Salvadora grahamiae</i> photo: Randy Klabacka</div>
+    </div>
+    <div class="content_img">
+      <img src="/img/SouthwestUSA/Taxa/2018_Aspidoscelis_inornatus_ElephantButte_1.jpg"        style="width:100%">
+      <div> <i>Aspidoscelis inornatus</i> photo: Miles Horne</div>
+    </div>
+    <div class="content_img">
+      <img src="/img/SouthwestUSA/Taxa/2017_Sceloporus_cowlesi_Pecos_2.jpg"        style="width:100%">
+      <div> <i>Sceloporus cowlesi</i> photo: Paulina Klabacka</div>
+    </div>
+    <div class="content_img">
+      <img src="/img/SouthwestUSA/Taxa/2017_NestingMourningDove_Alamogordo.jpg"        style="width:100%">
+      <div> <i>Zenaida macroura</i> photo: Paulina Klabacka</div>
+    </div>
+    <div class="content_img">
+      <img src="/img/SouthwestUSA/Taxa/2018_Plestiodon_obsoletus_ElephantButte.jpg"        style="width:100%">
+      <div> <i>Plestiodon obsoletus</i> photo: Miles Horne</div>
+    </div>
   </div>
   <div class="column">
-    <img src="/img/SouthwestUSA/Taxa/2018_Sceloporus_bimaculosus_ElephantButte.jpg"          style="width:100%">
-    <img src="/img/SouthwestUSA/Taxa/2018_Phrynosoma_modestum_BigBend_2.jpg"        style="width:100%">
-    <img src="/img/SouthwestUSA/Taxa/2019_Sceloporus_merriami_BigBend_1.jpg"           style="width:100%">
-    <img src="/img/SouthwestUSA/Taxa/2018_Sonora_semiannulata.jpg"         style="width:100%">
-    <img src="/img/SouthwestUSA/Taxa/2019_cacti.jpg"           style="width:100%">
-    <img src="/img/SouthwestUSA/Taxa/2018_Hypsiglena_torquata_BigBend.jpg"         style="width:100%">
-    <img src="/img/SouthwestUSA/Taxa/2017_Cophosaurus_texanum_ElephantButte_1.jpg"        style="width:100%">
-    <img src="/img/SouthwestUSA/Taxa/2018_Crotophytus_collaris_Colorado.JPG"        style="width:100%">
-    <img src="/img/SouthwestUSA/Taxa/2018_Crotalus_ornatus_OliverLee.jpg"        style="width:100%">
-    <img src="/img/SouthwestUSA/Taxa/2018_Anaxyrus_speciosus_Laredo.jpg"        style="width:100%">
-    <img src="/img/SouthwestUSA/Taxa/2018_Coleonyx_brevis_OliverLee.jpg"        style="width:100%">
-    <img src="/img/SouthwestUSA/Taxa/2017_Aspidoscelis_velox_Pecos_3.jpg"        style="width:100%">
-    <img src="/img/SouthwestUSA/Taxa/2019_Urosaurus_ornatus_BigBend_1.jpg"        style="width:100%">
-    <img src="/img/SouthwestUSA/Taxa/2018_tarantula.jpg"        style="width:100%">
+    <div class="content_img">
+      <img src="/img/SouthwestUSA/Taxa/2018_Sceloporus_bimaculosus_ElephantButte.jpg"          style="width:100%">
+      <div> <i>Sceloporus bimaculosus</i> photo: Miles Horne</div>
+    </div>
+    <div class="content_img">
+      <img src="/img/SouthwestUSA/Taxa/2018_Phrynosoma_modestum_BigBend_2.jpg"        style="width:100%">
+      <div> <i>Phrynosoma modestum</i> photo: Randy Klabacka</div>
+    </div>
+    <div class="content_img">
+      <img src="/img/SouthwestUSA/Taxa/2019_Sceloporus_merriami_BigBend_1.jpg"           style="width:100%">
+      <div> <i>Sceloporus merriami</i> photo: Randy Klabacka</div>
+    </div>
+    <div class="content_img">
+      <img src="/img/SouthwestUSA/Taxa/2018_Sonora_semiannulata.jpg"         style="width:100%">
+      <div> <i>Sonora semiannulata</i> photo: Randy Klabacka</div>
+    </div>
+    <div class="content_img">
+      <img src="/img/SouthwestUSA/Taxa/2019_cacti.jpg"           style="width:100%">
+      <div> <i>Echinocereus fendleri</i> photo: Randy Klabacka</div>
+    </div>
+    <div class="content_img">
+      <img src="/img/SouthwestUSA/Taxa/2018_Hypsiglena_torquata_BigBend.jpg"         style="width:100%">
+      <div> <i>Hypsiglena torquata</i> photo: Randy Klabacka</div>
+    </div>
+    <div class="content_img">
+      <img src="/img/SouthwestUSA/Taxa/2017_Cophosaurus_texanum_ElephantButte_1.jpg"        style="width:100%">
+      <div> <i>Cophosaurus texanum</i> photo: Paulina Klabacka</div>
+    </div>
+    <div class="content_img">
+      <img src="/img/SouthwestUSA/Taxa/2018_Crotophytus_collaris_Colorado.JPG"        style="width:100%">
+      <div> <i>Crotophytus collaris</i> photo: Randy Klabacka</div>
+    </div>
+    <div class="content_img">
+      <img src="/img/SouthwestUSA/Taxa/2018_Crotalus_ornatus_OliverLee.jpg"        style="width:100%">
+      <div> <i>Crotalus ornatus</i> photo: Miles Horne</div>
+    </div>
+    <div class="content_img">
+      <img src="/img/SouthwestUSA/Taxa/2018_Anaxyrus_speciosus_Laredo.jpg"        style="width:100%">
+      <div> <i>Anaxyrus speciosus</i> photo: Randy Klabacka</div>
+    </div>
+    <div class="content_img">
+      <img src="/img/SouthwestUSA/Taxa/2018_Coleonyx_brevis_OliverLee.jpg"        style="width:100%">
+      <div> <i>Coleonyx brevis</i> photo: Miles Horne</div>
+    </div>
+    <div class="content_img">
+      <img src="/img/SouthwestUSA/Taxa/2017_Aspidoscelis_velox_Pecos_3.jpg"        style="width:100%">
+      <div> <i>Aspidoscelis velox</i> photo: Paulina Klabacka</div>
+    </div>
+    <div class="content_img">
+      <img src="/img/SouthwestUSA/Taxa/2019_Urosaurus_ornatus_BigBend_1.jpg"        style="width:100%">
+      <div> <i>Urosaurus ornatus</i> photo: Randy Klabacka</div>
+    </div>
+    <div class="content_img">
+      <img src="/img/SouthwestUSA/Taxa/2018_tarantula.jpg"        style="width:100%">
+      <div> <i>Aphonopelma anax</i> photo: Randy Klabacka</div>
+    </div>
   </div>
 </div>
 
