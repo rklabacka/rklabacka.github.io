@@ -1,7 +1,73 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-04-01T18:34:50-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Randy Klabacka</title><subtitle>Evolutionary Biologist</subtitle><author><name>Randy Klabacka</name></author><entry><title type="html">Touring New Zealand</title><link href="http://localhost:4000/2020/01/10/NZ.html" rel="alternate" type="text/html" title="Touring New Zealand" /><published>2020-01-10T00:00:00-05:00</published><updated>2020-01-10T00:00:00-05:00</updated><id>http://localhost:4000/2020/01/10/NZ</id><content type="html" xml:base="http://localhost:4000/2020/01/10/NZ.html">&lt;center&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/img/posts/Banner_WC2020.jpg&quot; alt=&quot;WC2020_Post&quot;&gt;&lt;/center&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-04-02T10:09:32-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Randy Klabacka</title><subtitle>Evolutionary Biologist</subtitle><author><name>Randy Klabacka</name></author><entry><title type="html">Touring New Zealand</title><link href="http://localhost:4000/2020/01/10/NZ.html" rel="alternate" type="text/html" title="Touring New Zealand" /><published>2020-01-10T00:00:00-05:00</published><updated>2020-01-10T00:00:00-05:00</updated><id>http://localhost:4000/2020/01/10/NZ</id><content type="html" xml:base="http://localhost:4000/2020/01/10/NZ.html">&lt;link rel=&quot;stylesheet&quot; href=&quot;blogposts.css&quot;&gt;
 
 &lt;p&gt;After attending the World Congress of Herpetology in Dunedin, New Zealand, my wife (Paulina) and I seized the opportunity to experience the South Island– from the Wild West to the Rural East. We had countless breathtaking experiences during our drives and hikes!
-&lt;/p&gt;</content><author><name>Randy Klabacka</name></author><summary type="html"></summary></entry><entry><title type="html">World Congress of Herpetology</title><link href="http://localhost:4000/2020/01/05/wch9.html" rel="alternate" type="text/html" title="World Congress of Herpetology" /><published>2020-01-05T00:00:00-05:00</published><updated>2020-01-05T00:00:00-05:00</updated><id>http://localhost:4000/2020/01/05/wch9</id><content type="html" xml:base="http://localhost:4000/2020/01/05/wch9.html">&lt;center&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/img/posts/Banner_WC2020.jpg&quot; alt=&quot;WC2020_Post&quot;&gt;&lt;/center&gt;
+&lt;/p&gt;
+
+&lt;h2 style=&quot;text-align:center&quot;&gt;Otago Peninsula&lt;/h2&gt;
+
+&lt;div class=&quot;container&quot;&gt;
+  &lt;div class=&quot;mySlides&quot;&gt;
+    &lt;div class=&quot;numbertext&quot;&gt;1 / 6&lt;/div&gt;
+    &lt;img src=&quot;/img/posts/TaiaroaHead.jpg&quot; style=&quot;width:100%&quot;&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;mySlides&quot;&gt;
+    &lt;div class=&quot;numbertext&quot;&gt;2 / 6&lt;/div&gt;
+    &lt;img src=&quot;/img/posts/PenguinVillage.jpg&quot; style=&quot;width:100%&quot;&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;mySlides&quot;&gt;
+    &lt;div class=&quot;numbertext&quot;&gt;3 / 6&lt;/div&gt;
+    &lt;img src=&quot;/img/posts/ParadiseShellDuck.jpg&quot; style=&quot;width:100%&quot;&gt;
+  &lt;/div&gt;
+    
+  &lt;div class=&quot;mySlides&quot;&gt;
+    &lt;div class=&quot;numbertext&quot;&gt;4 / 6&lt;/div&gt;
+    &lt;img src=&quot;/img/posts/AlbatrossPlastic.jpg&quot; style=&quot;width:100%&quot;&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;mySlides&quot;&gt;
+    &lt;div class=&quot;numbertext&quot;&gt;5 / 6&lt;/div&gt;
+    &lt;img src=&quot;/img/posts/RedBilledGulls.jpg&quot; style=&quot;width:100%&quot;&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;mySlides&quot;&gt;
+    &lt;div class=&quot;numbertext&quot;&gt;6 / 6&lt;/div&gt;
+    &lt;img src=&quot;/img/posts/Oligosoma.jpg&quot; style=&quot;width:100%&quot;&gt;
+  &lt;/div&gt;
+
+    
+  &lt;a class=&quot;prev&quot; onclick=&quot;plusSlides(-1)&quot;&gt;❮&lt;/a&gt;
+  &lt;a class=&quot;next&quot; onclick=&quot;plusSlides(1)&quot;&gt;❯&lt;/a&gt;
+
+  &lt;div class=&quot;caption-container&quot;&gt;
+    &lt;p id=&quot;caption&quot;&gt;&lt;/p&gt;
+  &lt;/div&gt;
+
+  &lt;center&gt;&lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;column&quot;&gt;
+      &lt;img class=&quot;demo cursor&quot; src=&quot;/img/posts/TaiaroaHead.jpg&quot; style=&quot;width:100%&quot; onclick=&quot;currentSlide(1)&quot; alt=&quot;Taiaroa Head&quot;&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;column&quot;&gt;
+      &lt;img class=&quot;demo cursor&quot; src=&quot;/img/posts/PenguinVillage.jpg&quot; style=&quot;width:100%&quot; onclick=&quot;currentSlide(2)&quot; alt=&quot;Paulina at Hoiho penguin village&quot;&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;column&quot;&gt;
+      &lt;img class=&quot;demo cursor&quot; src=&quot;/img/posts/ParadiseShellDuck.jpg&quot; style=&quot;width:100%&quot; onclick=&quot;currentSlide(3)&quot; alt=&quot;Paradise Shell Duck&quot;&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;column&quot;&gt;
+      &lt;img class=&quot;demo cursor&quot; src=&quot;/img/posts/AlbatrossPlastic.jpg&quot; style=&quot;width:100%&quot; onclick=&quot;currentSlide(4)&quot; alt=&quot;Albatross Plastic :(&quot;&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;column&quot;&gt;
+      &lt;img class=&quot;demo cursor&quot; src=&quot;/img/posts/RedBilledGulls.jpg&quot; style=&quot;width:100%&quot; onclick=&quot;currentSlide(5)&quot; alt=&quot;Red-billed Gulls&quot;&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;column&quot;&gt;
+      &lt;img class=&quot;demo cursor&quot; src=&quot;/img/posts/Oligosoma.jpg&quot; style=&quot;width:100%&quot; onclick=&quot;currentSlide(6)&quot; alt=&quot;Oligosoma polychroma&quot;&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;&lt;/center&gt;
+&lt;/div&gt;
+
+&lt;p&gt;The Otago Peninsula was our first stop, which made for a great start. Dunedin is the &quot;Wildlife Capital of New Zealand,&quot; and the peninsula is biodiversity central. The drive on Highcliff Road provides magnificent vistas of the ocean both to the north and south. The drive culminates at Pukekura, where we watched Royal Albatrosses soar above Taiaroa Head. In addition, we saw White-fronted Terns, Mainland Spotted Shags, a Royal Spoonbill, and thousands of breeding Red-billed Gulls. Several fur seals layed basking on the rocky shore as waves beat the sharp rocks around them. It was a windy, beautiful place. At both the boardwalk and along the road on the drive back to town (along Harington Point Rd) Oligosoma polychroma darted in and out of the grass. &lt;/p&gt;</content><author><name>Randy Klabacka</name></author><summary type="html"></summary></entry><entry><title type="html">World Congress of Herpetology</title><link href="http://localhost:4000/2020/01/05/wch9.html" rel="alternate" type="text/html" title="World Congress of Herpetology" /><published>2020-01-05T00:00:00-05:00</published><updated>2020-01-05T00:00:00-05:00</updated><id>http://localhost:4000/2020/01/05/wch9</id><content type="html" xml:base="http://localhost:4000/2020/01/05/wch9.html">&lt;center&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/img/posts/Banner_WC2020.jpg&quot; alt=&quot;WC2020_Post&quot;&gt;&lt;/center&gt;
 
 &lt;p&gt;I was very fortunate to attend the 9th &lt;a href=&quot;https://http://www.worldcongressofherpetology.org/&quot; target=&quot;_blank&quot;&gt;World Congress of Herpetology&lt;/a&gt;&lt;/h4&gt;, where I gave a talk on reduced endurance and mitochondrial function in asexual whiptails compared to sexuals study (see &lt;a href=&quot;/research&quot;&gt;Research&lt;/a&gt;).
 &lt;/p&gt;
