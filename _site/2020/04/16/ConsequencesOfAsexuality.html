@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <title>
+    Consequences of Asexual Reproduction - Randy Klabacka
+    
+  </title>
+
+  <meta name="description" content="Over the past century, scientists batted around ideas explaining the scarcity of asexual reproduction, which led to numerous hypotheses regarding the costs o...">
+
+  <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="/assets/vendor/bootstrap/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="/assets/vendor/fontawesome-free/css/all.min.css">
+
+  <link rel="stylesheet" href="/assets/main.css">
+  <link rel="canonical" href="http://localhost:4000/2020/04/16/ConsequencesOfAsexuality.html">
+  <link rel="alternate" type="application/rss+xml" title="Randy Klabacka" href="/feed.xml">
+
+</head>
+
+
+<body>
+
+  <!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+  <div class="container">
+    <a class="navbar-brand" href="/">Randy Klabacka</a>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+      Menu
+      <i class="fa fa-bars"></i>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="/">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/research">Research</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/Klabacka_CV.pdf">CV</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/outreach">Outreach</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/posts">Blog</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/gallery">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+  <!-- Page Header -->
+
+<header class="masthead" style="background-image: url('/img/Banner_NMPrairie.jpg')">
+  
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-heading">
+            <h1>Consequences of Asexual Reproduction</h1>
+            
+            <h2 class="subheading">What's so good about sex? Biologists have many ideas.</h2>
+            
+            <span class="meta">Posted by
+              <a href="#">Randy Klabacka</a>
+              on April 16, 2020 &middot; <span class="reading-time" title="Estimated read time">
+  
+   4 mins  read </span>
+
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+<style>
+body {
+  font-family: Arial;
+  margin: 0;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+  position: relative;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #222;
+  padding: 2px 16px;
+  color: white;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+blockquote {
+max-width: 550px;
+text-align: center;
+margin: 20px;
+padding: 20px;
+}
+</style>
+
+<script>
+var slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demo");
+  var captionText = document.getElementById("caption");
+  if (n > slides.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+      slides[i].style.display = "none";
+  }
+  for (i = 0; i < dots.length; i++) {
+      dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";
+  dots[slideIndex-1].className += " active";
+  captionText.innerHTML = dots[slideIndex-1].alt;
+}
+</script>
+    
+</body>
+
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+
+        <p>Over the past century, scientists batted around ideas explaining the scarcity of asexual reproduction, which led to numerous hypotheses regarding the costs of asexual reproduction. Here is a list containing many of these hypotheses.
+</p>
+
+<ul>
+  <li><font color="#3364C4"><b>Variation and Selection Hypothesis</b></font></li>
+    <blockquote>“If we bear in mind that in sexual propagation twice as many individuals are required in order to produce any number of descendants and if we further remember the important morphological differentiations which must take place in order to render sexual propagation possible, we are led to the conviction that sexual propagation must confer immense benefits upon organic life. I believe that such beneficial results will be found in the fact that sexual propagation may be regarded as a source of individual variability, furnishing material for the operation of natural selection.” (Weismann, 1887 p. 609)</blockquote>
+    <ul>
+      <li><a href="https://doi.org/10.1038/036607a0" target="_blank">Weismann, A. (1887). On the signification of the polar globules. <i>Nature</i>. 36:607-609. doi:10.1038/036607a0</a></li>
+      <li><a href="https://www.jstor.org/stable/2455904" target="_blank">Castle, W.E. (1916). Variability under inbreeding and crossbreeding. <i>American Naturalist</i>. 50(591):178-183.</a></li>
+      <li><a href="https://www.jstor.org/stable/2456715" target="_blank">Castle, W.E. (1930). The significance of sexuality. <i>American Naturalist</i>. 64(695):481-494.</a></li>
+      <li><a href="https://www.jstor.org/stable/2456015" target="_blank">East, E.M. (1930). The role of reproduction in evolution. <i>American Naturalist</i>. 52(618/619):273-289.</a></li>
+      <li>Morgan, T.H. (1913). Heredity and sex. New York: Columbia University Press</li>
+      <li><a href="https://www.jstor.org/stable/2470766" target="_blank">Svedelius, N. (1927). Alternation of generations in relation to reduction division. <i>Botanical Gazette</i>. 83(4):362-384.</a></li>
+    </ul>
+  <br>
+
+  <li><font color="#3364C4"><b>Müller's Ratchet</b></font><br>
+    <ul>
+      <li><a href="https://doi.org/10.1016/0027-5107(64)90047-8" target="_blank">Müller, H.J. (1964). The relation of recombination to mutational advance. <i>Mutation Research</i>. 1:2-9. doi:10.1016/0027-5107(64)90047-8</a></li>
+    </ul>
+  <br>
+  <li><font color="#3364C4"><b>Mutational Meltdown Hypothesis</b></font><br>
+    <ul>
+      <li><a href="https://doi.org/10.1093/oxfordjournals.jhered.a111354" target="_blank">Lynch, M.L., Bürger, R., Butcher, D., Gabriel, W. (1993). The utational meltdown in asexual populations. <i>Evolution</i>. 84(5):339-344. doi:10.1093/oxfordjournals.jhered.a111354</a></li>
+      <li><a href="https://doi.org/10.2307/2410432" target="_blank">Lynch, M.L., Conery, J., Bürger, R. (1995). Mutational meltdowns in sexual populations. <i>Evolution</i>. 49(6):1067-1080. doi:10.2307/2410432</a></li>
+    </ul>
+  <br>
+  <li><font color="#3364C4"><b>The Red Queen Hypothesis</b></font><br>
+    <ul>
+      <li>An hypothesis to account for the maintenance of sex within populations. (1977). <i>Evolutionary Theory</i>. 3:191-194. doi:10.1093/oxfordjournals.jhered.a111354</a></li>
+      <li>Van Valen, L. (1973). A new evolutionary law. <i>Evolutionary Theory</i>. 1:1-30.
+      <li><a href="https://doi.org/10.1073/pnas.87.9.3566" target="_blank">Hamilton W.D., Axelrod R., Tanese R. (1990). Sexual reproduction as an adaptation to resist parasites (A review). <i>Proceedings of the National Academy of Sciences USA</i>. 87(9):3566-3573. doi:10.1073/pnas.87.9.3566</a></li>
+      <li>Mata-Silva V., Bursey C.R., Johnson J.D. (2008). Gut parasites of two syntopic species of whiptail lizards, Aspidoscelis marmorata and Aspidoscelis tesselata from the Northern Chihuahuan Desert. <i>Sociedad Herpetológica de México</i>. 16(1):1-4.</li>
+      <li><a href="https://doi.org/10.1098/rspb.1991.0063" target="_blank">Moritz C., Mccallum H., Donnellan S., Roberts J.D. (1991). Parasite loads in parthenogenetic and sexual lizards (Heteronotia binoei): Support for the Red Queen hypothesis.. <i>Proceedings of the Royal Society B</i>. 244(1310):145-149. doi:10.1098/rspb.1991.0063</a></li>
+    </ul>
+  <br>
+  <li><font color="#3364C4"><b>Parental Care Hypothesis</b></font></li>
+    <ul>
+      <li>Lloyd, D.G. (1980). Benefits and handicaps of sexual reproduction. In: Hecht, M.K., Steere, W.C., Wallace, B. Evolutionary Biology. Springer, Boston, MA.</li>
+    </ul>
+  <br>
+  <li><font color="#3364C4"><b>Deterministic Mutation Hypothesis</b></font></li>
+    <ul>
+      <li><a href="https://doi.org/10.1038/336435a0" target="_blank">Kondrashov, A.S. (1988). Deleterious mutations and the evolution of sexual reproduction. <i>Nature</i>. 336(6198):435-440. doi:10.1038/336435a0</a><br></li>
+    </ul>
+  <br>
+  <li><font color="#3364C4"><b>2x2 Classification</b></font></li>
+    <ul>
+      <li>Maynard Smith J. (1978). The evolution of sex. Cambridge: Cambridge University Press.<br></li>
+    </ul>
+  <br>
+  <li><font color="#3364C4"><b>Genetic Variability via Recombination</b></font><br>
+    <ul>
+      <li>Fisher, R.A. (1930). The genetical theory of natural selection. Clarendon Press, Oxford.<br></li>
+      <li><a href="https://doi.org/10.1086/280418" target="_blank">Müller, H.J. (1932). Some genetic aspects of sex. <i>American Naturalist</i>. 66:118-138. doi:10.1086/280418</a></li>
+    </ul>
+  <br>
+  <li><font color="#3364C4"><b>DNA Repair Hypothesis</b></font><br>
+    <ul>
+      <li><a href="https://doi.org/10.2307/2411667" target="_blank">Dougherty, E.G. (1955). Comparative evolution and the origin of sexuality. <i>Systematic Biology</i>. 4(4)145-169. doi:10.2307/2411667</a></li>
+      <li><a href="https://doi.org/doi:10.1093/oxfordjournals.jhered.a111357" target="_blank">Bernstein, C., Bernstein, H. (1991). Aging, sex, and DNA repair. San Diego: Academic Press.</a></li>
+      <li>Michod, R.E. (1993). Genetic error, sex, and diploidy. <i>Journal of Heredity</i>. 84(5)360-371. doi:10.1093/oxfordjournals.jhered.a111357</li>
+    </ul>
+  </li>
+  <br>
+  <li><font color="#3364C4"><b>Sexual Selection Hypothesis</b></font></li>
+    <blockquote>"The advantages of sexual reproduction with two different sexes are not limited to genetic heterogeneity of the progeny."</blockquote>
+    <ul>
+      <li>Geodakyan, V.A. (1965). The role of sexes in transmission and transformation of genetic information. <i>Problemy Peredachi Informatsii</i>. 1:105-112 (in Russian).</li>
+      <li><a href="https://doi.org/10.1111/j.1558-5646.1976.tb00908.x" target="_blank">Trivers, R. (1976). Sexual selection and resource-accruing abilities in Anolis garmani. <i>Evolution</i>. 30(2):253-269. doi:10.1111/j.1558-5646.1976.tb00908.x</a></li>
+      <li><a href="https://doi.org/10.1111/j.1558-5646.1992.tb02077.x" target="_blank">Charlesworth, D., Charlesworth, B. The effects of selection in the gametophyte stage on mutational load. <i>Evolution</i>. 46(3):703-720. doi:10.1111/j.1558-5646.1992.tb02077.x</a></li>
+    </ul>
+</ul>
+
+
+
+
+
+
+
+
+
+
+        <hr>
+
+        <div class="clearfix">
+
+          
+          <a class="btn btn-primary float-left" href="/2020/01/10/NZ.html" data-toggle="tooltip" data-placement="top" title="Touring New Zealand">&larr; Previous<span class="d-none d-md-inline">
+              Post</span></a>
+          
+          
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Footer -->
+
+<hr>
+
+<footer>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-md-10 mx-auto">
+        <ul class="list-inline text-center">
+          
+          <li class="list-inline-item">
+            <a href="mailto:klabacka.randy@gmail.com">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="far fa-envelope fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          <li class="list-inline-item">
+            <a href="https://twitter.com/r_klabacka">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          <li class="list-inline-item">
+            <a href="https://www.linkedin.com/in/klabacka">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-linkedin fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+          
+          <li class="list-inline-item">
+            <a href="https://github.com/rklabacka">
+              <span class="fa-stack fa-lg">
+                <i class="fas fa-circle fa-stack-2x"></i>
+                <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+        <p class="copyright text-muted">Copyright &copy; Randy Klabacka 2020</p>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="/assets/vendor/jquery/jquery.min.js"></script>
+<script src="/assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/vendor/startbootstrap-clean-blog/js/clean-blog.min.js"></script>
+
+<script src="/assets/scripts.js"></script>
+
+
+
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-XXXXXXXXX-X"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-XXXXXXXXX-X');
+</script>
+
+
+
+</body>
+
+</html>

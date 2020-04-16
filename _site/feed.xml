@@ -1,4 +1,76 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-04-09T21:29:57-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Randy Klabacka</title><subtitle>Evolutionary Biologist</subtitle><author><name>Randy Klabacka</name></author><entry><title type="html">Touring New Zealand</title><link href="http://localhost:4000/2020/01/10/NZ.html" rel="alternate" type="text/html" title="Touring New Zealand" /><published>2020-01-10T00:00:00-05:00</published><updated>2020-01-10T00:00:00-05:00</updated><id>http://localhost:4000/2020/01/10/NZ</id><content type="html" xml:base="http://localhost:4000/2020/01/10/NZ.html">&lt;p&gt;After attending the World Congress of Herpetology in Dunedin, New Zealand, my wife (Paulina) and I seized the opportunity to experience the South Island– from the Wild West to the Rural East. We had countless breathtaking experiences during our drives and hikes!
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-04-16T15:38:44-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Randy Klabacka</title><subtitle>Evolutionary Biologist</subtitle><author><name>Randy Klabacka</name></author><entry><title type="html">Consequences of Asexual Reproduction</title><link href="http://localhost:4000/2020/04/16/ConsequencesOfAsexuality.html" rel="alternate" type="text/html" title="Consequences of Asexual Reproduction" /><published>2020-04-16T00:00:00-04:00</published><updated>2020-04-16T00:00:00-04:00</updated><id>http://localhost:4000/2020/04/16/ConsequencesOfAsexuality</id><content type="html" xml:base="http://localhost:4000/2020/04/16/ConsequencesOfAsexuality.html">&lt;p&gt;Over the past century, scientists batted around ideas explaining the scarcity of asexual reproduction, which led to numerous hypotheses regarding the costs of asexual reproduction. Here is a list containing many of these hypotheses.
+&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;font color=&quot;#3364C4&quot;&gt;&lt;b&gt;Variation and Selection Hypothesis&lt;/b&gt;&lt;/font&gt;&lt;/li&gt;
+    &lt;blockquote&gt;“If we bear in mind that in sexual propagation twice as many individuals are required in order to produce any number of descendants and if we further remember the important morphological differentiations which must take place in order to render sexual propagation possible, we are led to the conviction that sexual propagation must confer immense benefits upon organic life. I believe that such beneficial results will be found in the fact that sexual propagation may be regarded as a source of individual variability, furnishing material for the operation of natural selection.” (Weismann, 1887 p. 609)&lt;/blockquote&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://doi.org/10.1038/036607a0&quot; target=&quot;_blank&quot;&gt;Weismann, A. (1887). On the signification of the polar globules. &lt;i&gt;Nature&lt;/i&gt;. 36:607-609. doi:10.1038/036607a0&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.jstor.org/stable/2455904&quot; target=&quot;_blank&quot;&gt;Castle, W.E. (1916). Variability under inbreeding and crossbreeding. &lt;i&gt;American Naturalist&lt;/i&gt;. 50(591):178-183.&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.jstor.org/stable/2456715&quot; target=&quot;_blank&quot;&gt;Castle, W.E. (1930). The significance of sexuality. &lt;i&gt;American Naturalist&lt;/i&gt;. 64(695):481-494.&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.jstor.org/stable/2456015&quot; target=&quot;_blank&quot;&gt;East, E.M. (1930). The role of reproduction in evolution. &lt;i&gt;American Naturalist&lt;/i&gt;. 52(618/619):273-289.&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Morgan, T.H. (1913). Heredity and sex. New York: Columbia University Press&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://www.jstor.org/stable/2470766&quot; target=&quot;_blank&quot;&gt;Svedelius, N. (1927). Alternation of generations in relation to reduction division. &lt;i&gt;Botanical Gazette&lt;/i&gt;. 83(4):362-384.&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;br&gt;
+
+  &lt;li&gt;&lt;font color=&quot;#3364C4&quot;&gt;&lt;b&gt;Müller's Ratchet&lt;/b&gt;&lt;/font&gt;&lt;br&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://doi.org/10.1016/0027-5107(64)90047-8&quot; target=&quot;_blank&quot;&gt;Müller, H.J. (1964). The relation of recombination to mutational advance. &lt;i&gt;Mutation Research&lt;/i&gt;. 1:2-9. doi:10.1016/0027-5107(64)90047-8&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;br&gt;
+  &lt;li&gt;&lt;font color=&quot;#3364C4&quot;&gt;&lt;b&gt;Mutational Meltdown Hypothesis&lt;/b&gt;&lt;/font&gt;&lt;br&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://doi.org/10.1093/oxfordjournals.jhered.a111354&quot; target=&quot;_blank&quot;&gt;Lynch, M.L., Bürger, R., Butcher, D., Gabriel, W. (1993). The utational meltdown in asexual populations. &lt;i&gt;Evolution&lt;/i&gt;. 84(5):339-344. doi:10.1093/oxfordjournals.jhered.a111354&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://doi.org/10.2307/2410432&quot; target=&quot;_blank&quot;&gt;Lynch, M.L., Conery, J., Bürger, R. (1995). Mutational meltdowns in sexual populations. &lt;i&gt;Evolution&lt;/i&gt;. 49(6):1067-1080. doi:10.2307/2410432&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;br&gt;
+  &lt;li&gt;&lt;font color=&quot;#3364C4&quot;&gt;&lt;b&gt;The Red Queen Hypothesis&lt;/b&gt;&lt;/font&gt;&lt;br&gt;
+    &lt;ul&gt;
+      &lt;li&gt;An hypothesis to account for the maintenance of sex within populations. (1977). &lt;i&gt;Evolutionary Theory&lt;/i&gt;. 3:191-194. doi:10.1093/oxfordjournals.jhered.a111354&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Van Valen, L. (1973). A new evolutionary law. &lt;i&gt;Evolutionary Theory&lt;/i&gt;. 1:1-30.
+      &lt;li&gt;&lt;a href=&quot;https://doi.org/10.1073/pnas.87.9.3566&quot; target=&quot;_blank&quot;&gt;Hamilton W.D., Axelrod R., Tanese R. (1990). Sexual reproduction as an adaptation to resist parasites (A review). &lt;i&gt;Proceedings of the National Academy of Sciences USA&lt;/i&gt;. 87(9):3566-3573. doi:10.1073/pnas.87.9.3566&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Mata-Silva V., Bursey C.R., Johnson J.D. (2008). Gut parasites of two syntopic species of whiptail lizards, Aspidoscelis marmorata and Aspidoscelis tesselata from the Northern Chihuahuan Desert. &lt;i&gt;Sociedad Herpetológica de México&lt;/i&gt;. 16(1):1-4.&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://doi.org/10.1098/rspb.1991.0063&quot; target=&quot;_blank&quot;&gt;Moritz C., Mccallum H., Donnellan S., Roberts J.D. (1991). Parasite loads in parthenogenetic and sexual lizards (Heteronotia binoei): Support for the Red Queen hypothesis.. &lt;i&gt;Proceedings of the Royal Society B&lt;/i&gt;. 244(1310):145-149. doi:10.1098/rspb.1991.0063&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;br&gt;
+  &lt;li&gt;&lt;font color=&quot;#3364C4&quot;&gt;&lt;b&gt;Parental Care Hypothesis&lt;/b&gt;&lt;/font&gt;&lt;/li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Lloyd, D.G. (1980). Benefits and handicaps of sexual reproduction. In: Hecht, M.K., Steere, W.C., Wallace, B. Evolutionary Biology. Springer, Boston, MA.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;br&gt;
+  &lt;li&gt;&lt;font color=&quot;#3364C4&quot;&gt;&lt;b&gt;Deterministic Mutation Hypothesis&lt;/b&gt;&lt;/font&gt;&lt;/li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://doi.org/10.1038/336435a0&quot; target=&quot;_blank&quot;&gt;Kondrashov, A.S. (1988). Deleterious mutations and the evolution of sexual reproduction. &lt;i&gt;Nature&lt;/i&gt;. 336(6198):435-440. doi:10.1038/336435a0&lt;/a&gt;&lt;br&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;br&gt;
+  &lt;li&gt;&lt;font color=&quot;#3364C4&quot;&gt;&lt;b&gt;2x2 Classification&lt;/b&gt;&lt;/font&gt;&lt;/li&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Maynard Smith J. (1978). The evolution of sex. Cambridge: Cambridge University Press.&lt;br&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;br&gt;
+  &lt;li&gt;&lt;font color=&quot;#3364C4&quot;&gt;&lt;b&gt;Genetic Variability via Recombination&lt;/b&gt;&lt;/font&gt;&lt;br&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Fisher, R.A. (1930). The genetical theory of natural selection. Clarendon Press, Oxford.&lt;br&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://doi.org/10.1086/280418&quot; target=&quot;_blank&quot;&gt;Müller, H.J. (1932). Some genetic aspects of sex. &lt;i&gt;American Naturalist&lt;/i&gt;. 66:118-138. doi:10.1086/280418&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;br&gt;
+  &lt;li&gt;&lt;font color=&quot;#3364C4&quot;&gt;&lt;b&gt;DNA Repair Hypothesis&lt;/b&gt;&lt;/font&gt;&lt;br&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=&quot;https://doi.org/10.2307/2411667&quot; target=&quot;_blank&quot;&gt;Dougherty, E.G. (1955). Comparative evolution and the origin of sexuality. &lt;i&gt;Systematic Biology&lt;/i&gt;. 4(4)145-169. doi:10.2307/2411667&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://doi.org/doi:10.1093/oxfordjournals.jhered.a111357&quot; target=&quot;_blank&quot;&gt;Bernstein, C., Bernstein, H. (1991). Aging, sex, and DNA repair. San Diego: Academic Press.&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Michod, R.E. (1993). Genetic error, sex, and diploidy. &lt;i&gt;Journal of Heredity&lt;/i&gt;. 84(5)360-371. doi:10.1093/oxfordjournals.jhered.a111357&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;br&gt;
+  &lt;li&gt;&lt;font color=&quot;#3364C4&quot;&gt;&lt;b&gt;Sexual Selection Hypothesis&lt;/b&gt;&lt;/font&gt;&lt;/li&gt;
+    &lt;blockquote&gt;&quot;The advantages of sexual reproduction with two different sexes are not limited to genetic heterogeneity of the progeny.&quot;&lt;/blockquote&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Geodakyan, V.A. (1965). The role of sexes in transmission and transformation of genetic information. &lt;i&gt;Problemy Peredachi Informatsii&lt;/i&gt;. 1:105-112 (in Russian).&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://doi.org/10.1111/j.1558-5646.1976.tb00908.x&quot; target=&quot;_blank&quot;&gt;Trivers, R. (1976). Sexual selection and resource-accruing abilities in Anolis garmani. &lt;i&gt;Evolution&lt;/i&gt;. 30(2):253-269. doi:10.1111/j.1558-5646.1976.tb00908.x&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://doi.org/10.1111/j.1558-5646.1992.tb02077.x&quot; target=&quot;_blank&quot;&gt;Charlesworth, D., Charlesworth, B. The effects of selection in the gametophyte stage on mutational load. &lt;i&gt;Evolution&lt;/i&gt;. 46(3):703-720. doi:10.1111/j.1558-5646.1992.tb02077.x&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/ul&gt;</content><author><name>Randy Klabacka</name></author><summary type="html">Over the past century, scientists batted around ideas explaining the scarcity of asexual reproduction, which led to numerous hypotheses regarding the costs of asexual reproduction. Here is a list containing many of these hypotheses.</summary></entry><entry><title type="html">Touring New Zealand</title><link href="http://localhost:4000/2020/01/10/NZ.html" rel="alternate" type="text/html" title="Touring New Zealand" /><published>2020-01-10T00:00:00-05:00</published><updated>2020-01-10T00:00:00-05:00</updated><id>http://localhost:4000/2020/01/10/NZ</id><content type="html" xml:base="http://localhost:4000/2020/01/10/NZ.html">&lt;p&gt;After attending the World Congress of Herpetology in Dunedin, New Zealand, my wife (Paulina) and I seized the opportunity to experience the South Island– from the Wild West to the Rural East. We had countless breathtaking experiences during our drives and hikes!
 &lt;/p&gt;
 
 &lt;h2 style=&quot;text-align:center&quot;&gt;Otago Peninsula&lt;/h2&gt;
@@ -67,7 +139,7 @@
 
 &lt;p&gt;The Otago Peninsula was our first stop, which made for a great start. Dunedin is the &quot;Wildlife Capital of New Zealand,&quot; and the peninsula is biodiversity central. The drive on Highcliff Road provides magnificent vistas of the ocean both to the north and south. The drive culminates at Pukekura, where we watched Royal Albatrosses soar above Taiaroa Head. In addition, we saw White-fronted Terns, Mainland Spotted Shags, a Royal Spoonbill, and thousands of breeding Red-billed Gulls. Several fur seals layed basking on the rocky shore as waves beat the sharp rocks around them. It was a windy, beautiful place. At both the boardwalk and along the road on the drive back to town (along Harington Point Rd) Oligosoma polychroma darted in and out of the grass. &lt;/p&gt;</content><author><name>Randy Klabacka</name></author><summary type="html">After attending the World Congress of Herpetology in Dunedin, New Zealand, my wife (Paulina) and I seized the opportunity to experience the South Island– from the Wild West to the Rural East. We had countless breathtaking experiences during our drives and hikes!</summary></entry><entry><title type="html">World Congress of Herpetology</title><link href="http://localhost:4000/2020/01/05/wch9.html" rel="alternate" type="text/html" title="World Congress of Herpetology" /><published>2020-01-05T00:00:00-05:00</published><updated>2020-01-05T00:00:00-05:00</updated><id>http://localhost:4000/2020/01/05/wch9</id><content type="html" xml:base="http://localhost:4000/2020/01/05/wch9.html">&lt;center&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/img/posts/Banner_WC2020.jpg&quot; alt=&quot;WC2020_Post&quot;&gt;&lt;/center&gt;
 
-&lt;p&gt;I was very fortunate to attend the 9th &lt;a href=&quot;https://http://www.worldcongressofherpetology.org/&quot; target=&quot;_blank&quot;&gt;World Congress of Herpetology&lt;/a&gt;&lt;/h4&gt;, where I gave a talk on reduced endurance and mitochondrial function in asexual whiptails compared to sexuals study (see &lt;a href=&quot;/research&quot;&gt;Research&lt;/a&gt;).
+&lt;p&gt;I was very fortunate to attend the 9th &lt;a href=&quot;https://http://www.worldcongressofherpetology.org/&quot; target=&quot;_blank&quot;&gt;World Congress of Herpetology&lt;/a&gt;, where I gave a talk on reduced endurance and mitochondrial function in asexual whiptails compared to sexuals study (see &lt;a href=&quot;/research&quot;&gt;Research&lt;/a&gt;).
 &lt;/p&gt;
 
 &lt;center&gt;&lt;img class=&quot;img-fluid&quot; src=&quot;/img/posts/MitoResults.jpg&quot; alt=&quot;WC2020_Post&quot;&gt;&lt;/center&gt;
