@@ -1,4 +1,73 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-04-16T15:38:44-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Randy Klabacka</title><subtitle>Evolutionary Biologist</subtitle><author><name>Randy Klabacka</name></author><entry><title type="html">Consequences of Asexual Reproduction</title><link href="http://localhost:4000/2020/04/16/ConsequencesOfAsexuality.html" rel="alternate" type="text/html" title="Consequences of Asexual Reproduction" /><published>2020-04-16T00:00:00-04:00</published><updated>2020-04-16T00:00:00-04:00</updated><id>http://localhost:4000/2020/04/16/ConsequencesOfAsexuality</id><content type="html" xml:base="http://localhost:4000/2020/04/16/ConsequencesOfAsexuality.html">&lt;p&gt;Over the past century, scientists batted around ideas explaining the scarcity of asexual reproduction, which led to numerous hypotheses regarding the costs of asexual reproduction. Here is a list containing many of these hypotheses.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-04-17T11:30:19-04:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Randy Klabacka</title><subtitle>Evolutionary Biologist</subtitle><author><name>Randy Klabacka</name></author><entry><title type="html">Skype con un Scientifico</title><link href="http://localhost:4000/2020/04/17/Skype_a_Scientist.html" rel="alternate" type="text/html" title="Skype con un Scientifico" /><published>2020-04-17T00:00:00-04:00</published><updated>2020-04-17T00:00:00-04:00</updated><id>http://localhost:4000/2020/04/17/Skype_a_Scientist</id><content type="html" xml:base="http://localhost:4000/2020/04/17/Skype_a_Scientist.html">&lt;p&gt;¡Hola! Yo soy Randy Klabacka - soy un herpetólogo de Auburn University en los Estados Unidos y estudio la evolución de reptiles y trabajo en el Museo de Historia Natural. El estudio de los reptiles y anfibios se llama &quot;herpetologia&quot; – entonces, ¡yo soy un herpetólogo! En está pagina de web describo de que se trata mi trabajo como herpetólogo.
+&lt;/p&gt;
+
+&lt;h2 style=&quot;text-align:center&quot;&gt;La Importancia de Museos – Herpetología&lt;/h2&gt;
+
+&lt;div class=&quot;container&quot;&gt;
+  &lt;div class=&quot;mySlides&quot;&gt;
+    &lt;div class=&quot;numbertext&quot;&gt;1 / 12&lt;/div&gt;
+    &lt;img src=&quot;/img/Klabacka_WhiptailPortrait.jpg&quot; style=&quot;width:100%&quot;&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;mySlides&quot;&gt;
+    &lt;div class=&quot;numbertext&quot;&gt;2 / 12&lt;/div&gt;
+    &lt;img src=&quot;/img/posts/STEMday1.jpg&quot; style=&quot;width:100%&quot;&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;mySlides&quot;&gt;
+    &lt;div class=&quot;numbertext&quot;&gt;3 / 12&lt;/div&gt;
+    &lt;img src=&quot;/img/posts/WhiptailJars.JPG&quot; style=&quot;width:100%&quot;&gt;
+  &lt;/div&gt;
+    
+  &lt;div class=&quot;mySlides&quot;&gt;
+    &lt;div class=&quot;numbertext&quot;&gt;4 / 12&lt;/div&gt;
+    &lt;img src=&quot;/img/posts/MuseumShelves.jpg&quot; style=&quot;width:100%&quot;&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;mySlides&quot;&gt;
+    &lt;div class=&quot;numbertext&quot;&gt;5 / 12&lt;/div&gt;
+    &lt;img src=&quot;/img/posts/MitoResults.jpg&quot; style=&quot;width:100%&quot;&gt;
+  &lt;/div&gt;
+
+  &lt;div class=&quot;mySlides&quot;&gt;
+    &lt;div class=&quot;numbertext&quot;&gt;6 / 12&lt;/div&gt;
+    &lt;iframe src=&quot;https://player.vimeo.com/video/377343173&quot; width=&quot;640&quot; height=&quot;360&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; fullscreen&quot; style=&quot;width:100%&quot; allowfullscreen&gt; &lt;/iframe&gt;
+  &lt;/div&gt;
+
+
+    
+  &lt;a class=&quot;prev&quot; onclick=&quot;plusSlides(-1)&quot;&gt;❮&lt;/a&gt;
+  &lt;a class=&quot;next&quot; onclick=&quot;plusSlides(1)&quot;&gt;❯&lt;/a&gt;
+
+  &lt;div class=&quot;caption-container&quot;&gt;
+    &lt;p id=&quot;caption&quot;&gt;&lt;/p&gt;
+  &lt;/div&gt;
+
+  &lt;center&gt;&lt;div class=&quot;row&quot;&gt;
+    &lt;div class=&quot;column&quot;&gt;
+      &lt;img class=&quot;demo cursor&quot; src=&quot;/img/Klabacka_WhiptailPortrait.jpg&quot; style=&quot;width:100%&quot; onclick=&quot;currentSlide(1)&quot; alt=&quot;Yo con dos huicos&quot;&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;column&quot;&gt;
+      &lt;img class=&quot;demo cursor&quot; src=&quot;/img/posts/STEMday1.jpg&quot; style=&quot;width:100%&quot; onclick=&quot;currentSlide(2)&quot; alt=&quot;Enseñando un huico a un grupo de estudiantes en el museo&quot;&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;column&quot;&gt;
+      &lt;img class=&quot;demo cursor&quot; src=&quot;/img/posts/WhiptailJars.JPG&quot; style=&quot;width:100%;&quot; onclick=&quot;currentSlide(3)&quot; alt=&quot;Todas las muesetras de huicos en el museo que he juntado para el estudio&quot;&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;column&quot;&gt;
+      &lt;img class=&quot;demo cursor&quot; src=&quot;/img/posts/MuseumShelves.jpg&quot; style=&quot;width:100%&quot; onclick=&quot;currentSlide(4)&quot; alt=&quot;La colección de reptiles y anfibios - más que 40,000 muestras&quot;&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;column&quot;&gt;
+      &lt;img class=&quot;demo cursor&quot; src=&quot;/img/posts/MitoResults.jpg&quot; style=&quot;width:100%&quot; onclick=&quot;currentSlide(5)&quot; alt=&quot;Presentando los resultados del estudio en una conferencia internacional&quot;&gt;
+    &lt;/div&gt;
+    &lt;div class=&quot;column&quot;&gt;
+      &lt;img class=&quot;demo cursor&quot; src=&quot;/img/SoutheastUSA/taxa/2020_Ambystoma_talpoideum.jpg&quot; style=&quot;width:100%&quot; onclick=&quot;currentSlide(6)&quot; alt=&quot;Un video de los anfibios y reptiles en Alabama&quot;&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;&lt;/center&gt;
+
+
+
+&lt;p&gt;Los museos de la historia natural son importantes porque son &quot;bibliotecas&quot; de la historia de nuestra planeta. Cuando piensas en un museo, a lo mejor imaginas cuartos largos con pilares y exposiciónes bonitas. Aunque muchos museos se ven así, la magia de los museos está contenida atrás de las paredes en colecciones. Yo trabajo en la colección de herpetología en el museo de Auburn University, donde tenemos más que 40,000 reptiles y anfibios. Está colección nos ayuda (A) entender la diversidad de reptiles y anfibios que hay en nuestro mundo, (B) guardar muestras de especies excepcionales para estudiar, y (C) ver los cambios que un especie experimenta mientras pasa el tiempo. Yo estudio unas lagartijas que se llaman &quot;huicos&quot;; se encuentran por los desiertos de los Estados Unidos y México. Son interesantes porque muchas son asexuales –¡solo existen hembras, y sus hijos son clones!&lt;/p&gt;</content><author><name>Randy Klabacka</name></author><summary type="html">¡Hola! Yo soy Randy Klabacka - soy un herpetólogo de Auburn University en los Estados Unidos y estudio la evolución de reptiles y trabajo en el Museo de Historia Natural. El estudio de los reptiles y anfibios se llama &quot;herpetologia&quot; – entonces, ¡yo soy un herpetólogo! En está pagina de web describo de que se trata mi trabajo como herpetólogo.</summary></entry><entry><title type="html">Consequences of Asexual Reproduction</title><link href="http://localhost:4000/2020/04/16/ConsequencesOfAsexuality.html" rel="alternate" type="text/html" title="Consequences of Asexual Reproduction" /><published>2020-04-16T00:00:00-04:00</published><updated>2020-04-16T00:00:00-04:00</updated><id>http://localhost:4000/2020/04/16/ConsequencesOfAsexuality</id><content type="html" xml:base="http://localhost:4000/2020/04/16/ConsequencesOfAsexuality.html">&lt;p&gt;Over the past century, scientists batted around ideas explaining the scarcity of asexual reproduction, which led to numerous hypotheses regarding the costs of asexual reproduction. Here is a list containing many of these hypotheses.
 &lt;/p&gt;
 
 &lt;ul&gt;
@@ -39,14 +108,12 @@
       &lt;li&gt;Lloyd, D.G. (1980). Benefits and handicaps of sexual reproduction. In: Hecht, M.K., Steere, W.C., Wallace, B. Evolutionary Biology. Springer, Boston, MA.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;br&gt;
-  &lt;li&gt;&lt;font color=&quot;#3364C4&quot;&gt;&lt;b&gt;Deterministic Mutation Hypothesis&lt;/b&gt;&lt;/font&gt;&lt;/li&gt;
-    &lt;ul&gt;
-      &lt;li&gt;&lt;a href=&quot;https://doi.org/10.1038/336435a0&quot; target=&quot;_blank&quot;&gt;Kondrashov, A.S. (1988). Deleterious mutations and the evolution of sexual reproduction. &lt;i&gt;Nature&lt;/i&gt;. 336(6198):435-440. doi:10.1038/336435a0&lt;/a&gt;&lt;br&gt;&lt;/li&gt;
-    &lt;/ul&gt;
   &lt;br&gt;
-  &lt;li&gt;&lt;font color=&quot;#3364C4&quot;&gt;&lt;b&gt;2x2 Classification&lt;/b&gt;&lt;/font&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;font color=&quot;#3364C4&quot;&gt;&lt;b&gt;2x2 Classification of Variant and Selection Hypothesis&lt;/b&gt;&lt;/font&gt;&lt;/li&gt;
     &lt;ul&gt;
       &lt;li&gt;Maynard Smith J. (1978). The evolution of sex. Cambridge: Cambridge University Press.&lt;br&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=&quot;https://doi.org/10.1038/336435a0&quot; target=&quot;_blank&quot;&gt;Kondrashov, A.S. (1988). Deleterious mutations and the evolution of sexual reproduction. &lt;i&gt;Nature&lt;/i&gt;. 336(6198):435-440. doi:10.1038/336435a0&lt;/a&gt;&lt;br&gt;&lt;/li&gt;
+      &lt;li&gt;Maynard Smith, J. (1988). The evolution of recombination. In: The evolution of recombination. The evolution of sex: an examination of current ideas. Sunderland, MA: Sinauer; 106-125.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;br&gt;
   &lt;li&gt;&lt;font color=&quot;#3364C4&quot;&gt;&lt;b&gt;Genetic Variability via Recombination&lt;/b&gt;&lt;/font&gt;&lt;br&gt;
