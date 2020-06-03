@@ -44,10 +44,10 @@
 <loc>http://localhost:4000/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/outreach.html</loc>
+<loc>http://localhost:4000/research.html</loc>
 </url>
 <url>
-<loc>http://localhost:4000/research.html</loc>
+<loc>http://localhost:4000/scicomm.html</loc>
 </url>
 <url>
 <loc>http://localhost:4000/Klabacka_CV.pdf</loc>
@@ -56,5 +56,13 @@
 <url>
 <loc>http://localhost:4000/flexbox.html</loc>
 <lastmod>2020-02-15T18:18:28-06:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/img/ResearchImages/Draco/DracoGenusTree.pdf</loc>
+<lastmod>2020-05-22T20:24:21-05:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/img/ResearchImages/ResearchAbstract.pdf</loc>
+<lastmod>2020-05-22T22:14:19-05:00</lastmod>
 </url>
 </urlset>

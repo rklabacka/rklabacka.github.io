@@ -1,0 +1,61 @@
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom"
+    xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule"
+    xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+    <channel>
+        <atom:link href="https://randyklabacka.com/rss/quickGRITS.xml" rel="self" type="application/rss+xml" />
+        <title>Quick GRITS</title>
+        <link>https://randyklabacka.com/quickGRITS</link>
+        <description>This is a one-sentence description of your show.</description>
+        <managingEditor>klabacka.randy@gmail.com (email)</managingEditor>
+        <webMaster>klabacka.randy@gmail.com (email)</webMaster>
+        <language>en-us</language>
+        <copyright>Copyright (C) 2018 My Awesome Organization. All Rights Reserved.</copyright>
+        <pubDate>Sat, 27 May 2017 02:00:00 CST</pubDate>
+        <lastBuildDate>Wed, 31 Jan 2018 02:00:00 GMT</lastBuildDate>
+        <image>
+            <url>https://randyklabacka.com/img/quickGRITS_cover.jpg</url>
+            <title>Quick GRITS</title>
+            <link>https://randyklabacka.com/quickGRITS</link>
+        </image>
+        <docs>http://www.rssboard.org/rss-specification</docs>
+        <itunes:author>My Awesome Organization</itunes:author>
+        <itunes:keywords>software,programming,game development,education,open source,technology</itunes:keywords>
+        <itunes:category text="Technology"/>
+        <itunes:explicit>clean</itunes:explicit>
+        <itunes:image href="http://mousepawmedia.com/img/ours/mousepawdcast_cover.jpg"/>
+        <itunes:owner>
+        <itunes:name><![CDATA[My Awesome Organization]]></itunes:name>
+            <itunes:email>klabacka.randy@gmail.com</itunes:email>
+        </itunes:owner>
+        <item>
+            <title>Episode 1: Frog Sex</title>
+            <link>https://archive.org/details/QGRITS-ep1-frog-sex</link>
+            <description>
+                This is the one-paragraph description that you wrote in the previous step. Although the description itself needs to be plain-text in other places, you can go nuts with formatting here.
+            </description>
+            <guid isPermaLink="true">https://archive.org/details/QGRITS-ep1-frog-sex</guid>
+            <pubDate>Wed, 20 May 2020 00:00:01 CST</pubDate>
+            <media:content
+                medium="audio"
+                url="https://archive.org/details/QGRITS-ep1-frog-sex/Ep1_FrogSex_5-20%20-%205%3A15%3A20%2C%2010.02%20PM.mp3"
+                type="audio/mpeg"
+                isDefault="true"
+                expression="full"
+                duration="905">
+                <media:title type="plain">Episode 1: Cool Stuff</media:title>
+                <media:description>
+                    This is the one-paragraph description that you wrote in the previous step. Although the description itself needs to     be plain-text in other places, you can go nuts with formatting here.
+                </media:description>
+                <media:rating scheme="urn:simple">nonadult</media:rating>
+                <media:thumbnail url="https://example.com/img/podcast_cover.jpg"/>
+                <media:keywords>
+                    programming, writing, creative writing, software, development, mousepaw media
+                </media:keywords>
+            </media:content>
+            <enclosure url="https://archive.org/details/QGRITS-ep1-frog-sex/Ep1_FrogSex_5-20%20-%205%3A15%3A20%2C%2010.02%20PM.mp3" length="21726271" type="audio/mpeg"/>
+            <itunes:image href="https://example.com/img/podcast_cover.jpg"/>
+            <itunes:explicit>clean</itunes:explicit>
+            <itunes:duration>00:15:05</itunes:duration>
+        </item>
+    </channel>
+</rss>
