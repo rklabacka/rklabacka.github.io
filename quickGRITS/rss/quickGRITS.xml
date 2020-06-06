@@ -2,7 +2,7 @@
     xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule"
     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
     <channel>
-        <atom:link href="https://randyklabacka.com/rss/quickGRITS.xml" rel="self" type="application/rss+xml" />
+        <atom:link href="https://randyklabacka.com/quickGRITS/rss/quickGRITS.xml" rel="self" type="application/rss+xml" />
         <title>Quick GRITS</title>
         <link>https://randyklabacka.com/quickGRITS</link>
         <description>This is a one-sentence description of your show.</description>

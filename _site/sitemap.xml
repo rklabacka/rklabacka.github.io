@@ -44,6 +44,9 @@
 <loc>http://localhost:4000/</loc>
 </url>
 <url>
+<loc>http://localhost:4000/quickGRITS.html</loc>
+</url>
+<url>
 <loc>http://localhost:4000/research.html</loc>
 </url>
 <url>
@@ -64,5 +67,9 @@
 <url>
 <loc>http://localhost:4000/img/ResearchImages/ResearchAbstract.pdf</loc>
 <lastmod>2020-05-22T22:14:19-05:00</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/quickGRITS/qgThumbnail.pdf</loc>
+<lastmod>2020-06-06T09:21:07-05:00</lastmod>
 </url>
 </urlset>
