@@ -39,13 +39,3 @@ img {
     max-width:400px;
     height:auto;
 }
-
-img.centered {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
-  width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
-     }
