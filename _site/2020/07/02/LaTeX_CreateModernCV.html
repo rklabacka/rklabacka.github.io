@@ -8,11 +8,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <title>
-    Touring New Zealand - Randy Klabacka
+    Create a CV in LaTeX - Randy Klabacka
     
   </title>
 
-  <meta name="description" content="After attending the World Congress of Herpetology in Dunedin, New Zealand, my wife (Paulina) and I seized the opportunity to experience the South Island– fro...">
+  <meta name="description" content="body { /* Set &quot;my-sec-counter&quot; to 0 */ counter-reset: my-sec-counter; }">
 
   <link href='https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
@@ -22,7 +22,7 @@
   <link rel="stylesheet" href="/assets/vendor/fontawesome-free/css/all.min.css">
 
   <link rel="stylesheet" href="/assets/main.css">
-  <link rel="canonical" href="http://localhost:4000/2020/01/10/NZ.html">
+  <link rel="canonical" href="http://localhost:4000/2020/07/02/LaTeX_CreateModernCV.html">
   <link rel="alternate" type="application/rss+xml" title="Randy Klabacka" href="/feed.xml">
 
 </head>
@@ -69,22 +69,22 @@
 
   <!-- Page Header -->
 
-<header class="masthead" style="background-image: url('/img/posts/Banner_NZ.jpg')">
+<header class="masthead" style="background-image: url('/img/Banner_Pecos.jpg')">
   
     <div class="overlay"></div>
     <div class="container">
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="post-heading">
-            <center><h1>Touring New Zealand</h1></center>
+            <center><h1>Create a CV in LaTeX</h1></center>
             
-            <center><h2 class="subheading">South Island</h2></center>
+            <center><h2 class="subheading">starting from step 1</h2></center>
             
             <center><span class="meta">Posted by
               <a href="#">Randy Klabacka</a>
-              on January 10, 2020 &middot; <span class="reading-time" title="Estimated read time">
+              on July 02, 2020 &middot; <span class="reading-time" title="Estimated read time">
   
-   2 mins  read </span>
+   4 mins  read </span>
 
             </span></center>
           </div>
@@ -265,76 +265,167 @@ function showSlides(n) {
     <div class="row">
       <div class="col-lg-8 col-md-10 mx-auto">
 
-        <p>After attending the World Congress of Herpetology in Dunedin, New Zealand, my wife (Paulina) and I seized the opportunity to experience the South Island– from the Wild West to the Rural East. We had countless breathtaking experiences during our drives and hikes!
+        <html>
+<head>
+<style>
+body {
+  /* Set "my-sec-counter" to 0 */
+  counter-reset: my-sec-counter;
+}
+
+h4::before {
+  /* Increment "my-sec-counter" by 1 */
+  counter-increment: my-sec-counter;
+  content: "Step " counter(my-sec-counter) ". ";
+}
+</style>
+</head>
+<body>
+
+<p><center>Here is how I created a CV using the <a href="https://github.com/xdanaux/moderncv" target="_blank">moderncv</a> LaTeX package. This tutorial is designed for a Unix environment (such as that in a MacOS terminal).
+</center></p>
+
+<h4 style="text-align:center">Install LaTeX</h4>
+<p><center>See <a href="https://www.latex-project.org/get/" target="_blank">The LaTeX Project</a></center></p>
+
+<h4 style="text-align:center">Create folder for your CV</h4>
+<p><center>If you already have a folder for your CV, you can just use that one. Otherwise, I recommend creating a folder just for your CV. For example, here I create one within my Documents and move into it with cd:</center></p>
+<div class="codebox">
+    <code>   
+        mkdir ~/Documents/CV
+        cd ~/Documents/CV
+    </code>
+</div>
+<br>
+
+<h4 style="text-align:center">Download moderncv files</h4>
+<p><center>From <a href="https://github.com/xdanaux/moderncv/tree/master/examples" target="_blank">Xavier Danaux</a>'s moderncv GitHub repository, copy and paste the text from the template.tex file into a new file within your CV directory titled CV.tex. Also copy and paste the text from the publications.bib file into a new file within your CV directory titled pubs.tex</center></p>
+
+<h4 style="text-align:center">Changes to Pubs.bib</h4>
+<p><center>Open your pubs.bib document and add your publications. For an understanding of how to format .bib references, this site will be helpful: <a href="http://www.bibtex.org/Format/" target="_blank">BibTex.org/Format</a></center></p>
+
+<h4 style="text-align:center">Changes to the CV.tex preamble</h4>
+
+<p><center>(The preamble is the region in a LaTeX document before \begin{document})</center></p>
+
+<p><center>I prefer the "banking" style, so I changed "casual" to "banking" at line 12.</center>
+
+<div class="codebox">
+    <code>   
+        \moderncvstyle{banking}
+    </code>
+</div>
 </p>
 
-<h2 style="text-align:center">Otago Peninsula</h2>
+<p><center>Now add all of the packages you'll be using, which are as follows: </center>
 
-<div class="container">
-  <div class="mySlides">
-    <div class="numbertext">1 / 6</div>
-    <img src="/img/posts/TaiaroaHead.jpg" style="width:100%">
-  </div>
-
-  <div class="mySlides">
-    <div class="numbertext">2 / 6</div>
-    <img src="/img/posts/PenguinVillage.jpg" style="width:100%">
-  </div>
-
-  <div class="mySlides">
-    <div class="numbertext">3 / 6</div>
-    <img src="/img/posts/ParadiseShellDuck.jpg" style="width:100%">
-  </div>
-    
-  <div class="mySlides">
-    <div class="numbertext">4 / 6</div>
-    <img src="/img/posts/AlbatrossPlastic.jpg" style="width:100%">
-  </div>
-
-  <div class="mySlides">
-    <div class="numbertext">5 / 6</div>
-    <img src="/img/posts/RedBilledGulls.jpg" style="width:100%">
-  </div>
-
-  <div class="mySlides">
-    <div class="numbertext">6 / 6</div>
-    <img src="/img/posts/Oligosoma.jpg" style="width:100%">
-  </div>
-
-    
-  <a class="prev" onclick="plusSlides(-1)">❮</a>
-  <a class="next" onclick="plusSlides(1)">❯</a>
-
-  <div class="caption-container">
-    <p id="caption"></p>
-  </div>
-
-  <center><div class="row">
-    <div class="column">
-      <img class="demo cursor" src="/img/posts/TaiaroaHead.jpg" style="width:100%" onclick="currentSlide(1)" alt="Taiaroa Head">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="/img/posts/PenguinVillage.jpg" style="width:100%" onclick="currentSlide(2)" alt="Paulina at Hoiho penguin village">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="/img/posts/ParadiseShellDuck.jpg" style="width:100%" onclick="currentSlide(3)" alt="Paradise Shell Duck">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="/img/posts/AlbatrossPlastic.jpg" style="width:100%" onclick="currentSlide(4)" alt="Albatross Plastic :(">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="/img/posts/RedBilledGulls.jpg" style="width:100%" onclick="currentSlide(5)" alt="Red-billed Gulls">
-    </div>
-    <div class="column">
-      <img class="demo cursor" src="/img/posts/Oligosoma.jpg" style="width:100%" onclick="currentSlide(6)" alt="Oligosoma polychroma">
-    </div>
-    </div>
-  </div></center>
+<div class="codebox">
+    <code>   
+        \usepackage[backend=biber,style=authoryear-comp, sorting=ydnt, maxbibnames=99]{biblatex}  % bibliography<br>
+        \usepackage[american]{babel}  % helps convert TeX to American English<br>
+        \usepackage{tabto}  % spacing package
+    </code>
 </div>
+</p>
 
-<p>The Otago Peninsula was our first stop, which made for a great start. Dunedin is the "Wildlife Capital of New Zealand," and the peninsula is biodiversity central. The drive on Highcliff Road provides magnificent vistas of the ocean both to the north and south. The drive culminates at Pukekura, where we watched Royal Albatrosses soar above Taiaroa Head. In addition, we saw White-fronted Terns, Mainland Spotted Shags, a Royal Spoonbill, and thousands of breeding Red-billed Gulls. Several fur seals layed basking on the rocky shore as waves beat the sharp rocks around them. It was a windy, beautiful place. At both the boardwalk and along the road on the drive back to town (along Harington Point Rd) Oligosoma polychroma darted in and out of the grass. </p>
+<p><center>You'll also want to add your references (pubs.bib). (Optional: If you want to have multiple bibliographies (e.g., a different bibliography with conference presentations), copy the pubs.bib format in a different .bib file [such as pres.bib] and use the same command as that below to add the resource.)</center>
+ </center></p>
+
+<div class="codebox">
+    <code>   
+        \addbibresource{pubs.bib}
+    </code>
+</div>
+</p>
+
+<p><center>Optional: Add a function to bold last author name in bibliography</center>
+
+<div class="codebox">
+    <code>   
+        \newcommand{\makeauthorbold}[1]{<br>
+          \DeclareNameFormat{author}{<br>
+            \ifthenelse{\value{listcount}=1}<br>
+            {<br>
+              {\expandafter\ifstrequal\expandafter{\namepartfamily}{#1}{\mkbibbold{\namepartfamily\addcomma\addspace \namepartgiveni}}{\namepartfamily\addcomma\addspace \namepartgiveni}}<br>
+            }{\ifnumless{\value{listcount}}{\value{liststop}}<br>
+                {\expandafter\ifstrequal\expandafter{\namepartfamily}{#1}{\mkbibbold{\addcomma\addspace \namepartfamily\addcomma\addspace \namepartgiveni}}{\addcomma\addspace \namepartfamily\addcomma\addspace \namepartgiveni}}<br>
+                {\expandafter\ifstrequal\expandafter{\namepartfamily}{#1}{\mkbibbold{\addcomma\addspace \namepartfamily\addcomma\addspace \namepartgiveni\addcomma\isdot}}{\addcomma\addspace \namepartfamily\addcomma\addspace \namepartgiveni\addcomma\isdot}}<br>
+              }<br>
+            \ifthenelse{\value{listcount}<\value{liststop}}<br>
+            {\addcomma\space}<br>
+          }<br>
+        }<br>
+        \makeauthorbold{Klabacka}
+    </code>
+</div>
+</p>
+
+<p><center>For lines 27-43, add and remove personal information sections as desired. I change the title from resumé to curriculum vitae and include my name, work address, email, homepage, twitter, and GitHub, and delete or comment out the other lines. In the end, my personal information section looks like this:</center>
+
+<div class="codebox">
+    <code>   
+        \name{Randy}{Klabacka}                       <br>
+        \title{curriculum vitae}                     <br>
+        \address{331 Funchess Hall}{Auburn, AL}{USA} <br>
+        \email{klabacka.randy@auburn.edu}            <br>
+        \homepage{randyklabacka.com}                 <br>
+        \social[twitter]{HumbleHerper}               <br>
+        \social[github]{rklabacka}                   <br>
+    </code>
+</div>
+</p>
+
+<h4 style="text-align:center">Changes to the document</h4>
+
+<p><center>(These changes should be after \begin{document} in CV.tex)</center></p>
+
+<p><center>In similar fashion, add in your education, experience, skills, and other sections in the order desired. You may wish to modify some of the formats on these- which will take some internet searching to get exactly what your looking for. In this tutorial I won't provide detailed information for every section I modified for my own CV (for that, feel free to check out the code for my CV on <a href="https://github.com/rklabacka/CV" target="_blank">GitHub</a>), but I will go over some broad things that I think are helpful.</center></p>
+
+<p><center>To add your publications bibliography:</center>
+<div class="codebox">
+    <code>   
+        \section{Publications}<br>
+        \begin{refsection}[pubs.bib]<br>
+        \nocite{*}<br>
+        \printbibliography[heading=none]<br>
+        \end{refsection}<br>
+    </code>
+</div>
+</p>
+
+<p><center>Delete the following lines (they will interfere with biblatex):</center>
+<div class="codebox">
+    <code>   
+        \nocite{*}<br>
+        \bibliographystyle{plain}<br>
+        \bibliography{publications}<br>
+    </code>
+</div>
+</p>
+
+<h4 style="text-align:center">Compile your CV!</h4>
+
+<p><center>On the command line, in the directory with your CV.tex and pubs.bib, execute the following commands in the provided sequence:</center>
+<div class="codebox">
+    <code>   
+        pdflatex CV.tex<br>
+        biber CV<br>
+        pdflatex CV.tex<br>
+    </code>
+</div>
+</p>
+
+<p><center>Opening your newly created CV.pdf, it should look something like this: <a href="/posts/exampleCV/CV.pdf" target="_blank">CV.pdf</a></center>
+
+<p><center>Here are the final versions of <a href="/posts/exampleCV/CV.tex" target="_blank">CV.tex</a> and <a href="/posts/exampleCV/pubs.bib" target="_blank">pubs.bib</a> that were used to create <a href="/posts/exampleCV/CV.pdf" target="_blank">CV.pdf</a></center>
 
 
+
+
+
+
+
+</body>
 
 
 
@@ -348,12 +439,9 @@ function showSlides(n) {
         <div class="clearfix">
 
           
-          <a class="btn btn-primary float-left" href="/2020/01/05/wch9.html" data-toggle="tooltip" data-placement="top" title="World Congress of Herpetology">&larr; Previous<span class="d-none d-md-inline">
+          <a class="btn btn-primary float-left" href="/2020/04/17/Skype_a_Scientist.html" data-toggle="tooltip" data-placement="top" title="Skype con un Científico">&larr; Previous<span class="d-none d-md-inline">
               Post</span></a>
           
-          
-          <a class="btn btn-primary float-right" href="/2020/04/16/ConsequencesOfAsexuality.html" data-toggle="tooltip" data-placement="top" title="Consequences of Asexual Reproduction">Next<span class="d-none d-md-inline">
-              Post</span> &rarr;</a>
           
 
         </div>

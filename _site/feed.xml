@@ -1,4 +1,164 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-07-02T09:41:21-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Randy Klabacka</title><subtitle>Evolutionary Biologist</subtitle><author><name>Randy Klabacka</name></author><entry><title type="html">Skype con un Científico</title><link href="http://localhost:4000/2020/04/17/Skype_a_Scientist.html" rel="alternate" type="text/html" title="Skype con un Científico" /><published>2020-04-17T00:00:00-05:00</published><updated>2020-04-17T00:00:00-05:00</updated><id>http://localhost:4000/2020/04/17/Skype_a_Scientist</id><content type="html" xml:base="http://localhost:4000/2020/04/17/Skype_a_Scientist.html">&lt;p&gt;¡Hola! Yo soy Randy Klabacka - soy un herpetólogo de Auburn University en los Estados Unidos. Estudio la evolución de reptiles y trabajo en el Museo de Historia Natural. El estudio de los reptiles y anfibios se llama &quot;herpetologia&quot; – entonces, ¡yo soy un herpetólogo! En está pagina de web describo de que se trata mi trabajo como herpetólogo.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-07-03T22:52:50-05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Randy Klabacka</title><subtitle>Evolutionary Biologist</subtitle><author><name>Randy Klabacka</name></author><entry><title type="html">Create a CV in LaTeX</title><link href="http://localhost:4000/2020/07/02/LaTeX_CreateModernCV.html" rel="alternate" type="text/html" title="Create a CV in LaTeX" /><published>2020-07-02T00:00:00-05:00</published><updated>2020-07-02T00:00:00-05:00</updated><id>http://localhost:4000/2020/07/02/LaTeX_CreateModernCV</id><content type="html" xml:base="http://localhost:4000/2020/07/02/LaTeX_CreateModernCV.html">&lt;html&gt;
+&lt;head&gt;
+&lt;style&gt;
+body {
+  /* Set &quot;my-sec-counter&quot; to 0 */
+  counter-reset: my-sec-counter;
+}
+
+h4::before {
+  /* Increment &quot;my-sec-counter&quot; by 1 */
+  counter-increment: my-sec-counter;
+  content: &quot;Step &quot; counter(my-sec-counter) &quot;. &quot;;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;p&gt;&lt;center&gt;Here is how I created a CV using the &lt;a href=&quot;https://github.com/xdanaux/moderncv&quot; target=&quot;_blank&quot;&gt;moderncv&lt;/a&gt; LaTeX package. This tutorial is designed for a Unix environment (such as that in a MacOS terminal).
+&lt;/center&gt;&lt;/p&gt;
+
+&lt;h4 style=&quot;text-align:center&quot;&gt;Install LaTeX&lt;/h4&gt;
+&lt;p&gt;&lt;center&gt;See &lt;a href=&quot;https://www.latex-project.org/get/&quot; target=&quot;_blank&quot;&gt;The LaTeX Project&lt;/a&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;h4 style=&quot;text-align:center&quot;&gt;Create folder for your CV&lt;/h4&gt;
+&lt;p&gt;&lt;center&gt;If you already have a folder for your CV, you can just use that one. Otherwise, I recommend creating a folder just for your CV. For example, here I create one within my Documents and move into it with cd:&lt;/center&gt;&lt;/p&gt;
+&lt;div class=&quot;codebox&quot;&gt;
+    &lt;code&gt;   
+        mkdir ~/Documents/CV
+        cd ~/Documents/CV
+    &lt;/code&gt;
+&lt;/div&gt;
+&lt;br&gt;
+
+&lt;h4 style=&quot;text-align:center&quot;&gt;Download moderncv files&lt;/h4&gt;
+&lt;p&gt;&lt;center&gt;From &lt;a href=&quot;https://github.com/xdanaux/moderncv/tree/master/examples&quot; target=&quot;_blank&quot;&gt;Xavier Danaux&lt;/a&gt;'s moderncv GitHub repository, copy and paste the text from the template.tex file into a new file within your CV directory titled CV.tex. Also copy and paste the text from the publications.bib file into a new file within your CV directory titled pubs.tex&lt;/center&gt;&lt;/p&gt;
+
+&lt;h4 style=&quot;text-align:center&quot;&gt;Changes to Pubs.bib&lt;/h4&gt;
+&lt;p&gt;&lt;center&gt;Open your pubs.bib document and add your publications. For an understanding of how to format .bib references, this site will be helpful: &lt;a href=&quot;http://www.bibtex.org/Format/&quot; target=&quot;_blank&quot;&gt;BibTex.org/Format&lt;/a&gt;&lt;/center&gt;&lt;/p&gt;
+
+&lt;h4 style=&quot;text-align:center&quot;&gt;Changes to the CV.tex preamble&lt;/h4&gt;
+
+&lt;p&gt;&lt;center&gt;(The preamble is the region in a LaTeX document before \begin{document})&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;I prefer the &quot;banking&quot; style, so I changed &quot;casual&quot; to &quot;banking&quot; at line 12.&lt;/center&gt;
+
+&lt;div class=&quot;codebox&quot;&gt;
+    &lt;code&gt;   
+        \moderncvstyle{banking}
+    &lt;/code&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;Now add all of the packages you'll be using, which are as follows: &lt;/center&gt;
+
+&lt;div class=&quot;codebox&quot;&gt;
+    &lt;code&gt;   
+        \usepackage[backend=biber,style=authoryear-comp, sorting=ydnt, maxbibnames=99]{biblatex}  % bibliography&lt;br&gt;
+        \usepackage[american]{babel}  % helps convert TeX to American English&lt;br&gt;
+        \usepackage{tabto}  % spacing package
+    &lt;/code&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;You'll also want to add your references (pubs.bib). (Optional: If you want to have multiple bibliographies (e.g., a different bibliography with conference presentations), copy the pubs.bib format in a different .bib file [such as pres.bib] and use the same command as that below to add the resource.)&lt;/center&gt;
+ &lt;/center&gt;&lt;/p&gt;
+
+&lt;div class=&quot;codebox&quot;&gt;
+    &lt;code&gt;   
+        \addbibresource{pubs.bib}
+    &lt;/code&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;Optional: Add a function to bold last author name in bibliography&lt;/center&gt;
+
+&lt;div class=&quot;codebox&quot;&gt;
+    &lt;code&gt;   
+        \newcommand{\makeauthorbold}[1]{&lt;br&gt;
+          \DeclareNameFormat{author}{&lt;br&gt;
+            \ifthenelse{\value{listcount}=1}&lt;br&gt;
+            {&lt;br&gt;
+              {\expandafter\ifstrequal\expandafter{\namepartfamily}{#1}{\mkbibbold{\namepartfamily\addcomma\addspace \namepartgiveni}}{\namepartfamily\addcomma\addspace \namepartgiveni}}&lt;br&gt;
+            }{\ifnumless{\value{listcount}}{\value{liststop}}&lt;br&gt;
+                {\expandafter\ifstrequal\expandafter{\namepartfamily}{#1}{\mkbibbold{\addcomma\addspace \namepartfamily\addcomma\addspace \namepartgiveni}}{\addcomma\addspace \namepartfamily\addcomma\addspace \namepartgiveni}}&lt;br&gt;
+                {\expandafter\ifstrequal\expandafter{\namepartfamily}{#1}{\mkbibbold{\addcomma\addspace \namepartfamily\addcomma\addspace \namepartgiveni\addcomma\isdot}}{\addcomma\addspace \namepartfamily\addcomma\addspace \namepartgiveni\addcomma\isdot}}&lt;br&gt;
+              }&lt;br&gt;
+            \ifthenelse{\value{listcount}&lt;\value{liststop}}&lt;br&gt;
+            {\addcomma\space}&lt;br&gt;
+          }&lt;br&gt;
+        }&lt;br&gt;
+        \makeauthorbold{Klabacka}
+    &lt;/code&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;For lines 27-43, add and remove personal information sections as desired. I change the title from resumé to curriculum vitae and include my name, work address, email, homepage, twitter, and GitHub, and delete or comment out the other lines. In the end, my personal information section looks like this:&lt;/center&gt;
+
+&lt;div class=&quot;codebox&quot;&gt;
+    &lt;code&gt;   
+        \name{Randy}{Klabacka}                       &lt;br&gt;
+        \title{curriculum vitae}                     &lt;br&gt;
+        \address{331 Funchess Hall}{Auburn, AL}{USA} &lt;br&gt;
+        \email{klabacka.randy@auburn.edu}            &lt;br&gt;
+        \homepage{randyklabacka.com}                 &lt;br&gt;
+        \social[twitter]{HumbleHerper}               &lt;br&gt;
+        \social[github]{rklabacka}                   &lt;br&gt;
+    &lt;/code&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+
+&lt;h4 style=&quot;text-align:center&quot;&gt;Changes to the document&lt;/h4&gt;
+
+&lt;p&gt;&lt;center&gt;(These changes should be after \begin{document} in CV.tex)&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;In similar fashion, add in your education, experience, skills, and other sections in the order desired. You may wish to modify some of the formats on these- which will take some internet searching to get exactly what your looking for. In this tutorial I won't provide detailed information for every section I modified for my own CV (for that, feel free to check out the code for my CV on &lt;a href=&quot;https://github.com/rklabacka/CV&quot; target=&quot;_blank&quot;&gt;GitHub&lt;/a&gt;), but I will go over some broad things that I think are helpful.&lt;/center&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;To add your publications bibliography:&lt;/center&gt;
+&lt;div class=&quot;codebox&quot;&gt;
+    &lt;code&gt;   
+        \section{Publications}&lt;br&gt;
+        \begin{refsection}[pubs.bib]&lt;br&gt;
+        \nocite{*}&lt;br&gt;
+        \printbibliography[heading=none]&lt;br&gt;
+        \end{refsection}&lt;br&gt;
+    &lt;/code&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;Delete the following lines (they will interfere with biblatex):&lt;/center&gt;
+&lt;div class=&quot;codebox&quot;&gt;
+    &lt;code&gt;   
+        \nocite{*}&lt;br&gt;
+        \bibliographystyle{plain}&lt;br&gt;
+        \bibliography{publications}&lt;br&gt;
+    &lt;/code&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+
+&lt;h4 style=&quot;text-align:center&quot;&gt;Compile your CV!&lt;/h4&gt;
+
+&lt;p&gt;&lt;center&gt;On the command line, in the directory with your CV.tex and pubs.bib, execute the following commands in the provided sequence:&lt;/center&gt;
+&lt;div class=&quot;codebox&quot;&gt;
+    &lt;code&gt;   
+        pdflatex CV.tex&lt;br&gt;
+        biber CV&lt;br&gt;
+        pdflatex CV.tex&lt;br&gt;
+    &lt;/code&gt;
+&lt;/div&gt;
+&lt;/p&gt;
+
+&lt;p&gt;&lt;center&gt;Opening your newly created CV.pdf, it should look something like this: &lt;a href=&quot;/posts/exampleCV/CV.pdf&quot; target=&quot;_blank&quot;&gt;CV.pdf&lt;/a&gt;&lt;/center&gt;
+
+&lt;p&gt;&lt;center&gt;Here are the final versions of &lt;a href=&quot;/posts/exampleCV/CV.tex&quot; target=&quot;_blank&quot;&gt;CV.tex&lt;/a&gt; and &lt;a href=&quot;/posts/exampleCV/pubs.bib&quot; target=&quot;_blank&quot;&gt;pubs.bib&lt;/a&gt; that were used to create &lt;a href=&quot;/posts/exampleCV/CV.pdf&quot; target=&quot;_blank&quot;&gt;CV.pdf&lt;/a&gt;&lt;/center&gt;
+
+
+
+
+
+
+
+&lt;/body&gt;</content><author><name>Randy Klabacka</name></author><summary type="html">body { /* Set &quot;my-sec-counter&quot; to 0 */ counter-reset: my-sec-counter; }</summary></entry><entry><title type="html">Skype con un Científico</title><link href="http://localhost:4000/2020/04/17/Skype_a_Scientist.html" rel="alternate" type="text/html" title="Skype con un Científico" /><published>2020-04-17T00:00:00-05:00</published><updated>2020-04-17T00:00:00-05:00</updated><id>http://localhost:4000/2020/04/17/Skype_a_Scientist</id><content type="html" xml:base="http://localhost:4000/2020/04/17/Skype_a_Scientist.html">&lt;p&gt;¡Hola! Yo soy Randy Klabacka - soy un herpetólogo de Auburn University en los Estados Unidos. Estudio la evolución de reptiles y trabajo en el Museo de Historia Natural. El estudio de los reptiles y anfibios se llama &quot;herpetologia&quot; – entonces, ¡yo soy un herpetólogo! En está pagina de web describo de que se trata mi trabajo como herpetólogo.
 &lt;/p&gt;
 
 &lt;h2 style=&quot;text-align:center&quot;&gt;La Importancia de Museos – Herpetología&lt;/h2&gt;

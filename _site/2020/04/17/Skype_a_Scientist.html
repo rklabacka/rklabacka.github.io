@@ -41,7 +41,7 @@
     <div class="collapse navbar-collapse" id="navbarResponsive">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link" href="/">About Me</a>
+          <a class="nav-link" href="/">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="/research">Research</a>
@@ -76,17 +76,17 @@
       <div class="row">
         <div class="col-lg-8 col-md-10 mx-auto">
           <div class="post-heading">
-            <h1>Skype con un Científico</h1>
+            <center><h1>Skype con un Científico</h1></center>
             
-            <h2 class="subheading">¿que hace un herpetólogo?</h2>
+            <center><h2 class="subheading">¿que hace un herpetólogo?</h2></center>
             
-            <span class="meta">Posted by
+            <center><span class="meta">Posted by
               <a href="#">Randy Klabacka</a>
               on April 17, 2020 &middot; <span class="reading-time" title="Estimated read time">
   
    3 mins  read </span>
 
-            </span>
+            </span></center>
           </div>
         </div>
       </div>
@@ -94,6 +94,10 @@
   </header>
 
 <style>
+a {
+  color: hotpink;
+}
+
 body {
   font-family: Arial;
   margin: 0;
@@ -198,6 +202,28 @@ text-align: center;
 margin: 20px;
 padding: 20px;
 }
+
+.monospace {
+  font-family: "Courier New", Courier, monospace;
+}
+
+.codebox {
+/* Below are styles for the codebox (not the code itself) */
+background-color:#363636;
+width:auto;
+overflow-x:scroll;
+padding:10px;
+}
+
+.codebox code {
+/* Styles in here affect the text of the codebox */
+font-size:0.9em;
+white-space: nowrap;
+overflow:hidden;
+overflow-x:scroll;
+/* You could also put all sorts of styling here, like different font, color, underline, etc. for the code. */
+}
+
 </style>
 
 <script>
@@ -326,6 +352,9 @@ function showSlides(n) {
           <a class="btn btn-primary float-left" href="/2020/04/16/ConsequencesOfAsexuality.html" data-toggle="tooltip" data-placement="top" title="Consequences of Asexual Reproduction">&larr; Previous<span class="d-none d-md-inline">
               Post</span></a>
           
+          
+          <a class="btn btn-primary float-right" href="/2020/07/02/LaTeX_CreateModernCV.html" data-toggle="tooltip" data-placement="top" title="Create a CV in LaTeX">Next<span class="d-none d-md-inline">
+              Post</span> &rarr;</a>
           
 
         </div>
