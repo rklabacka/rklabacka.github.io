@@ -5,33 +5,93 @@
         <atom:link href="https://randyklabacka.com/quickGRITS/rss/quickGRITS.xml" rel="self" type="application/rss+xml" />
         <title>Quick GRITS</title>
         <link>https://randyklabacka.com/quickGRITS</link>
-        <description>This is a one-sentence description of your show.</description>
+        <description>Quick GRITS (Getting Real In Talking Science) is a podcast of short episodes that provide listeners with a quick, entertaining look into the lives of biologists and what they study.</description>
         <managingEditor>klabacka.randy@gmail.com (email)</managingEditor>
         <webMaster>klabacka.randy@gmail.com (email)</webMaster>
         <language>en-us</language>
-        <copyright>Copyright (C) 2018 My Awesome Organization. All Rights Reserved.</copyright>
-        <pubDate>Sat, 27 May 2017 02:00:00 CST</pubDate>
-        <lastBuildDate>Wed, 31 Jan 2018 02:00:00 GMT</lastBuildDate>
+        <copyright>Copyright (C) 2020 Randy Klabacka: Evolutionary Biologist. All Rights Reserved.</copyright>
+        <pubDate>Wed, 20 May 2020 00:00:01 CST</pubDate>
+        <lastBuildDate>Wed, 21 Aug 2020 00:00:01 GMT</lastBuildDate>
         <image>
             <url>https://randyklabacka.com/img/quickGRITS_cover.jpg</url>
             <title>Quick GRITS</title>
             <link>https://randyklabacka.com/quickGRITS</link>
         </image>
         <docs>http://www.rssboard.org/rss-specification</docs>
-        <itunes:author>My Awesome Organization</itunes:author>
-        <itunes:keywords>software,programming,game development,education,open source,technology</itunes:keywords>
-        <itunes:category text="Technology"/>
+        <itunes:author>Randy Klabacka</itunes:author>
+        <itunes:keywords>science, evolution, biology, ecology</itunes:keywords>
+        <itunes:category text="Life Sciences"/>
         <itunes:explicit>clean</itunes:explicit>
-        <itunes:image href="http://mousepawmedia.com/img/ours/mousepawdcast_cover.jpg"/>
+        <itunes:image href="randyklabacka.com/quickGRITS/qgBanner.png"/>
         <itunes:owner>
-        <itunes:name><![CDATA[My Awesome Organization]]></itunes:name>
+        <itunes:name><![CDATA[Randy Klabacka]]></itunes:name>
             <itunes:email>klabacka.randy@gmail.com</itunes:email>
         </itunes:owner>
+        <item>
+            <title>Episode 3: Brown Birds</title>
+            <link>https://archive.org/embed/qgrits-ep-3-brown-birds</link>
+            <description>
+                Rafael Marcondes (LSU) talks about why some birds are brown and others browner, Darwin and Wallace's thoughts bird color evolution, and his journey to becoming an ornithologist.
+            </description>
+            <guid isPermaLink="true">https://archive.org/embed/qgrits-ep-3-brown-birds</guid>
+            <pubDate>Tues, 21 July 2020 00:00:01 CST</pubDate>
+            <media:content
+                medium="audio"
+                url="https://ia801503.us.archive.org/35/items/qgrits-ep-3-brown-birds/QGRITS-Ep3-BrownBirds.mp3"
+                type="audio/mpeg"
+                isDefault="true"
+                expression="full"
+                duration="1373">
+                <media:title type="plain">Episode 2: Rattlesnake Personalities</media:title>
+                <media:description>
+                    Rafael Marcondes (LSU) talks about why some birds are brown and others browner, Darwin and Wallace's thoughts bird color evolution, and his journey to becoming an ornithologist.
+                </media:description>
+                <media:rating scheme="urn:simple">nonadult</media:rating>
+                <media:thumbnail url="randyklabacka.com/quickGRITS/EpisodeThumbnails/Ep3_Poliocrania.png"/>
+                <media:keywords>
+                    birds, ornithology, color, evolution, color evolution, Darwin, Wallace
+                </media:keywords>
+            </media:content>
+            <enclosure url="https://ia801503.us.archive.org/35/items/qgrits-ep-3-brown-birds/QGRITS-Ep3-BrownBirds.mp3" length="1373" type="audio/mp3"/>
+            <itunes:image href="randyklabacka.com/quickGRITS/EpisodeThumbnails/Ep3_Poliocrania.png"/>
+            <itunes:explicit>clean</itunes:explicit>
+            <itunes:duration>00:22:53</itunes:duration>
+        </item>
+        <item>
+            <title>Episode 2: Rattlesnake Personalities</title>
+            <link>https://archive.org/details/QGRITS-ep1-frog-sex</link>
+            <description>
+                Océane Da Cunha (UT- El Paso) talks about her experience and research with rattlesnake personalities and behavior.
+            </description>
+            <guid isPermaLink="true">https://archive.org/embed/qgrits-ep-2-rattlesnake-personalities</guid>
+            <pubDate>Tues, 11 June 2020 00:00:01 CST</pubDate>
+            <media:content
+                medium="audio"
+                url="https://ia803205.us.archive.org/9/items/qgrits-ep-2-rattlesnake-personalities/QGRITS-Ep2-RattlesnakePersonalities.mp3"
+                type="audio/mpeg"
+                isDefault="true"
+                expression="full"
+                duration="976">
+                <media:title type="plain">Episode 2: Rattlesnake Personalities</media:title>
+                <media:description>
+                    Océane Da Cunha (UT- El Paso) talks about her experience and research with rattlesnake personalities and behavior.
+                </media:description>
+                <media:rating scheme="urn:simple">nonadult</media:rating>
+                <media:thumbnail url="randyklabacka.com/quickGRITS/EpisodeThumbnails/Ep2_Crotalus.png"/>
+                <media:keywords>
+                    rattlesnakes, herpetology, animal behavior, evolution, ecology, personality, biology
+                </media:keywords>
+            </media:content>
+            <enclosure url="https://ia803205.us.archive.org/9/items/qgrits-ep-2-rattlesnake-personalities/QGRITS-Ep2-RattlesnakePersonalities.mp3" length="976" type="audio/mp3"/>
+            <itunes:image href="randyklabacka.com/quickGRITS/EpisodeThumbnails/Ep2_Crotalus.png"/>
+            <itunes:explicit>clean</itunes:explicit>
+            <itunes:duration>00:16:16</itunes:duration>
+        </item>
         <item>
             <title>Episode 1: Frog Sex</title>
             <link>https://archive.org/details/QGRITS-ep1-frog-sex</link>
             <description>
-                This is the one-paragraph description that you wrote in the previous step. Although the description itself needs to be plain-text in other places, you can go nuts with formatting here.
+                Kerry Cobb (Auburn Univ.) talks about the world of frog sex.
             </description>
             <guid isPermaLink="true">https://archive.org/details/QGRITS-ep1-frog-sex</guid>
             <pubDate>Wed, 20 May 2020 00:00:01 CST</pubDate>
@@ -42,18 +102,18 @@
                 isDefault="true"
                 expression="full"
                 duration="905">
-                <media:title type="plain">Episode 1: Cool Stuff</media:title>
+                <media:title type="plain">Episode 1: Frog Sex</media:title>
                 <media:description>
-                    This is the one-paragraph description that you wrote in the previous step. Although the description itself needs to     be plain-text in other places, you can go nuts with formatting here.
+                    Kerry Cobb (Auburn Univ.) talks about the world of frog sex.
                 </media:description>
                 <media:rating scheme="urn:simple">nonadult</media:rating>
-                <media:thumbnail url="https://example.com/img/podcast_cover.jpg"/>
+                <media:thumbnail url="randyklabacka.com/quickGRITS/EpisodeThumbnails/Ep1_Rana.png"/>
                 <media:keywords>
-                    programming, writing, creative writing, software, development, mousepaw media
+                    frogs, evolution, sexual reproduction, hybridization, herpetology, biology
                 </media:keywords>
             </media:content>
-            <enclosure url="https://archive.org/details/QGRITS-ep1-frog-sex/Ep1_FrogSex_5-20%20-%205%3A15%3A20%2C%2010.02%20PM.mp3" length="21726271" type="audio/mpeg"/>
-            <itunes:image href="https://example.com/img/podcast_cover.jpg"/>
+            <enclosure url="https://archive.org/details/QGRITS-ep1-frog-sex/Ep1_FrogSex_5-20%20-%205%3A15%3A20%2C%2010.02%20PM.mp3" length="905" type="audio/mp3"/>
+            <itunes:image href="randyklabacka.com/quickGRITS/EpisodeThumbnails/Ep1_Rana.png"/>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:duration>00:15:05</itunes:duration>
         </item>
