@@ -1,4 +1,4 @@
-<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom"
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:spotify="https://www.spotify.com/ns/rss"
     xmlns:creativeCommons="http://backend.userland.com/creativeCommonsRssModule"
     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
     <channel>
@@ -8,12 +8,12 @@
         <description>Quick GRITS (Getting Real In Talking Science) is a podcast of short episodes that provide listeners with a quick, entertaining look into the lives of biologists and what they study.</description>
         <managingEditor>klabacka.randy@gmail.com (email)</managingEditor>
         <webMaster>klabacka.randy@gmail.com (email)</webMaster>
-        <language>en-us</language>
+        <language>en</language>
         <copyright>Copyright (C) 2020 Randy Klabacka: Evolutionary Biologist. All Rights Reserved.</copyright>
         <pubDate>Wed, 20 May 2020 00:00:01 CST</pubDate>
         <lastBuildDate>Wed, 21 Aug 2020 00:00:01 GMT</lastBuildDate>
         <image>
-            <url>https://randyklabacka.com/img/quickGRITS_cover.jpg</url>
+            <url>https://randyklabacka.com/quickGRITS/qgThumbnail.png</url>
             <title>Quick GRITS</title>
             <link>https://randyklabacka.com/quickGRITS</link>
         </image>
@@ -22,7 +22,11 @@
         <itunes:keywords>science, evolution, biology, ecology</itunes:keywords>
         <itunes:category text="Life Sciences"/>
         <itunes:explicit>clean</itunes:explicit>
-        <itunes:image href="randyklabacka.com/quickGRITS/qgBanner.png"/>
+        <itunes:complete>no</itunes:complete>
+        <itunes:type>episodic</itunes:type>
+        <spotify:limit recentCount="3" />
+        <spotify:countryOfOrigin> US </spotify:countryOfOrigin>
+        <itunes:image href="https://randyklabacka.com/quickGRITS/qgThumbnail.png"/>
         <itunes:owner>
         <itunes:name><![CDATA[Randy Klabacka]]></itunes:name>
             <itunes:email>klabacka.randy@gmail.com</itunes:email>
@@ -52,14 +56,14 @@
                     birds, ornithology, color, evolution, color evolution, Darwin, Wallace
                 </media:keywords>
             </media:content>
-            <enclosure url="https://ia801503.us.archive.org/35/items/qgrits-ep-3-brown-birds/QGRITS-Ep3-BrownBirds.mp3" length="1373" type="audio/mp3"/>
-            <itunes:image href="randyklabacka.com/quickGRITS/EpisodeThumbnails/Ep3_Poliocrania.png"/>
+            <enclosure url="https://ia801503.us.archive.org/35/items/qgrits-ep-3-brown-birds/QGRITS-Ep3-BrownBirds.mp3" length="21974958" type="audio/mp3"/>
+            <itunes:image href="https://randyklabacka.com/quickGRITS/qgThumbnail.png"/>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:duration>00:22:53</itunes:duration>
         </item>
         <item>
             <title>Episode 2: Rattlesnake Personalities</title>
-            <link>https://archive.org/details/QGRITS-ep1-frog-sex</link>
+            <link>https://archive.org/details/qgrits-ep-2-rattlesnake-personalities</link>
             <description>
                 Océane Da Cunha (UT- El Paso) talks about her experience and research with rattlesnake personalities and behavior.
             </description>
@@ -82,8 +86,8 @@
                     rattlesnakes, herpetology, animal behavior, evolution, ecology, personality, biology
                 </media:keywords>
             </media:content>
-            <enclosure url="https://ia803205.us.archive.org/9/items/qgrits-ep-2-rattlesnake-personalities/QGRITS-Ep2-RattlesnakePersonalities.mp3" length="976" type="audio/mp3"/>
-            <itunes:image href="randyklabacka.com/quickGRITS/EpisodeThumbnails/Ep2_Crotalus.png"/>
+            <enclosure url="https://ia803205.us.archive.org/9/items/qgrits-ep-2-rattlesnake-personalities/QGRITS-Ep2-RattlesnakePersonalities.mp3" length="15623232" type="audio/mp3"/>
+            <itunes:image href="https://randyklabacka.com/quickGRITS/qgThumbnail.png"/>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:duration>00:16:16</itunes:duration>
         </item>
@@ -112,8 +116,8 @@
                     frogs, evolution, sexual reproduction, hybridization, herpetology, biology
                 </media:keywords>
             </media:content>
-            <enclosure url="https://archive.org/details/QGRITS-ep1-frog-sex/Ep1_FrogSex_5-20%20-%205%3A15%3A20%2C%2010.02%20PM.mp3" length="905" type="audio/mp3"/>
-            <itunes:image href="randyklabacka.com/quickGRITS/EpisodeThumbnails/Ep1_Rana.png"/>
+            <enclosure url="https://archive.org/details/QGRITS-ep1-frog-sex/Ep1_FrogSex_5-20%20-%205%3A15%3A20%2C%2010.02%20PM.mp3" length="21726271" type="audio/mp3"/>
+            <itunes:image href="https://randyklabacka.com/quickGRITS/qgThumbnail.png"/>
             <itunes:explicit>clean</itunes:explicit>
             <itunes:duration>00:15:05</itunes:duration>
         </item>
