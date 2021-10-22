@@ -32,6 +32,36 @@
             <itunes:email>klabacka.randy@gmail.com</itunes:email>
         </itunes:owner>
         <item>
+            <title>Episode 4: Harvesters (Part 1)</title>
+            <link>https://archive.org/embed/qgrits-ep-4-harvesters-pt1</link>
+            <description>
+                Dr. Mercedes Burns talks about the beautifully strange arachnids known as harvesters and her path to evolutionary biology and arachnology in part 1 of a 2-part conversation
+            </description>
+            <guid isPermaLink="true">https://archive.org/embed/qgrits-ep-4-harvesters-pt1</guid>
+            <pubDate>Tue, 21 Jul 2020 00:00:01 CST</pubDate>
+            <media:content
+                medium="audio"
+                url="https://ia601409.us.archive.org/26/items/qgrits-ep-4-harvesters-pt1/Ep4_HarvestersPart1_10-20.mp3"
+                type="audio/mpeg"
+                isDefault="true"
+                expression="full"
+                duration="882">
+                <media:title type="plain">Episode 4: Harvesters Part 1</media:title>
+                <media:description>
+                    Dr. Mercedes Burns talks about the beautifully strange arachnids known as harvesters and her path to evolutionary biology and arachnology in part 1 of a 2-part conversation
+                </media:description>
+                <media:rating scheme="urn:simple">nonadult</media:rating>
+                <media:thumbnail url="randyklabacka.com/quickGRITS/EpisodeThumbnails/Ep3_Poliocrania.png"/>
+                <media:keywords>
+                    Evolution, arachnids, biology, spiders, harvesters, science
+                </media:keywords>
+            </media:content>
+            <enclosure url="https://ia601409.us.archive.org/26/items/qgrits-ep-4-harvesters-pt1/Ep4_HarvestersPart1_10-20.mp3" length="21974958" type="audio/mp3"/>
+            <itunes:image href="https://randyklabacka.com/quickGRITS/qgThumbnail.png"/>
+            <itunes:explicit>clean</itunes:explicit>
+            <itunes:duration>00:14:43</itunes:duration>
+        </item>
+        <item>
             <title>Episode 3: Brown Birds</title>
             <link>https://archive.org/embed/qgrits-ep-3-brown-birds</link>
             <description>
@@ -46,7 +76,7 @@
                 isDefault="true"
                 expression="full"
                 duration="1373">
-                <media:title type="plain">Episode 2: Rattlesnake Personalities</media:title>
+                <media:title type="plain">Episode 3: Brown Birds</media:title>
                 <media:description>
                     Rafael Marcondes (LSU) talks about why some birds are brown and others browner, Darwin and Wallace's thoughts on bird color evolution, and his journey to becoming an ornithologist.
                 </media:description>
