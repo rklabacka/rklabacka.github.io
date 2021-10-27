@@ -33,6 +33,9 @@
 <loc>http://localhost:4000/quickGRITS/Ep4-HarvestersPt1.html</loc>
 </url>
 <url>
+<loc>http://localhost:4000/quickGRITS/Ep5-HarvestersPt2.html</loc>
+</url>
+<url>
 <loc>http://localhost:4000/photos/Illustrations/Illustrations.html</loc>
 </url>
 <url>
@@ -46,6 +49,9 @@
 </url>
 <url>
 <loc>http://localhost:4000/photos/Trees/Trees.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/teaching/VertBio.html</loc>
 </url>
 <url>
 <loc>http://localhost:4000/contact.html</loc>
@@ -67,6 +73,12 @@
 </url>
 <url>
 <loc>http://localhost:4000/scicomm.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/teaching/scicomm.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/teaching.html</loc>
 </url>
 <url>
 <loc>http://localhost:4000/Klabacka_CV.pdf</loc>

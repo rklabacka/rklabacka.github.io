@@ -32,6 +32,36 @@
             <itunes:email>klabacka.randy@gmail.com</itunes:email>
         </itunes:owner>
         <item>
+            <title>Episode 5: Harvesters (Part 2)</title>
+            <link>https://archive.org/embed/qgrits-ep-5-harvesters-pt2</link>
+            <description>
+                Dr. Mercedes Burns talks about the beautifully strange arachnids known as harvesters and the evolution of sexual conflict.
+            </description>
+            <guid isPermaLink="true">https://archive.org/embed/qgrits-ep-5-harvesters-pt2</guid>
+            <pubDate>Fri, 22 Oct 2021 00:00:01 CST</pubDate>
+            <media:content
+                medium="audio"
+                url="https://ia601505.us.archive.org/20/items/qgrits-ep-5-harvesters-pt2/Ep5_HarvestersPart2_10-20.mp3"
+                type="audio/mpeg"
+                isDefault="true"
+                expression="full"
+                duration="1483">
+                <media:title type="plain">Episode 5: Harvesters Part 2</media:title>
+                <media:description>
+                    Dr. Mercedes Burns talks about the beautifully strange arachnids known as harvesters and the evolution of sexual conflict. This is the second part of our conversation- for part 1 see Episode 4.
+                </media:description>
+                <media:rating scheme="urn:simple">nonadult</media:rating>
+                <media:thumbnail url="randyklabacka.com/quickGRITS/EpisodeThumbnails/Ep5_Opiliones.png"/>
+                <media:keywords>
+                    Evolution, arachnids, biology, spiders, harvesters, science
+                </media:keywords>
+            </media:content>
+            <enclosure url="https://ia601505.us.archive.org/20/items/qgrits-ep-5-harvesters-pt2/Ep5_HarvestersPart2_10-20.mp3" length="21974958" type="audio/mp3"/>
+            <itunes:image href="https://randyklabacka.com/quickGRITS/qgThumbnail.png"/>
+            <itunes:explicit>clean</itunes:explicit>
+            <itunes:duration>00:24:43</itunes:duration>
+        </item>
+        <item>
             <title>Episode 4: Harvesters (Part 1)</title>
             <link>https://archive.org/embed/qgrits-ep-4-harvesters-pt1</link>
             <description>
