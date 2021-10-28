@@ -36,7 +36,13 @@
 <loc>http://localhost:4000/quickGRITS/Ep5-HarvestersPt2.html</loc>
 </url>
 <url>
+<loc>http://localhost:4000/teaching/Genetics.html</loc>
+</url>
+<url>
 <loc>http://localhost:4000/photos/Illustrations/Illustrations.html</loc>
+</url>
+<url>
+<loc>http://localhost:4000/teaching/S4B.html</loc>
 </url>
 <url>
 <loc>http://localhost:4000/photos/SoutheastAsia.html</loc>
@@ -73,9 +79,6 @@
 </url>
 <url>
 <loc>http://localhost:4000/scicomm.html</loc>
-</url>
-<url>
-<loc>http://localhost:4000/teaching/scicomm.html</loc>
 </url>
 <url>
 <loc>http://localhost:4000/teaching.html</loc>
