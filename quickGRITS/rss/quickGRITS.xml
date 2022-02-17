@@ -31,6 +31,7 @@
         <itunes:name><![CDATA[Randy Klabacka]]></itunes:name>
             <itunes:email>klabacka.randy@gmail.com</itunes:email>
         </itunes:owner>
+        <!--
         <item>
             <title>Episode 6: Surreal Ciliates (Part 2)</title>
             <link>https://archive.org/embed/qgrits-ep-6-surreal-ciliates-pt1</link>
@@ -61,6 +62,7 @@
             <itunes:explicit>clean</itunes:explicit>
             <itunes:duration>00:18:28</itunes:duration>
         </item>
+        -->
         <item>
             <title>Episode 5: Harvesters (Part 2)</title>
             <link>https://archive.org/embed/qgrits-ep-5-harvesters-pt2</link>
