@@ -32,6 +32,66 @@
             <itunes:email>klabacka.randy@gmail.com</itunes:email>
         </itunes:owner>
         <item>
+            <title>Episode 7: Sexy Ciliates (Part 2)</title>
+            <link>https://archive.org/embed/ep-7-ciliates-part-1-sexy-ciliates-11-21</link>
+            <description>
+              Rebecca Zufall (Univ. of Houston) talks about the many sexes (mating types) and sexual/asexual reproduction strategies in ciliates in part 2 of a 3-part conversation. 
+            </description>
+            <guid isPermaLink="true">https://archive.org/embed/ep-7-ciliates-part-1-sexy-ciliates-11-21</guid>
+            <pubDate>Tue, 15 Feb 2022 00:00:02 CST</pubDate>
+            <media:content
+                medium="audio"
+                url="https://ia801407.us.archive.org/24/items/ep-7-ciliates-part-1-sexy-ciliates-11-21/Ep7_CiliatesPart1_SexyCiliates_11-21.mp3"
+                type="audio/mpeg"
+                isDefault="true"
+                expression="full"
+                duration="779">
+                <media:title type="plain">Episode 7: Sexy Ciliates Part 1</media:title>
+                <media:description>
+                  Rebecca Zufall (Univ. of Houston) talks about the many sexes (mating types) and sexual/asexual reproduction strategies in ciliates in part 2 of a 3-part conversation. 
+                </media:description>
+                <media:rating scheme="urn:simple">nonadult</media:rating>
+                <media:thumbnail url="randyklabacka.com/quickGRITS/EpisodeThumbnails/Ep7_Ciliates.png"/>
+                <media:keywords>
+                    Evolution, biology, microbiology, ciliates, protists, science
+                </media:keywords>
+            </media:content>
+            <enclosure url="https://ia801407.us.archive.org/24/items/ep-7-ciliates-part-1-sexy-ciliates-11-21/Ep7_CiliatesPart1_SexyCiliates_11-21.mp3" length="12464296" type="audio/mp3"/>
+            <itunes:image href="https://randyklabacka.com/quickGRITS/qgThumbnail.png"/>
+            <itunes:explicit>clean</itunes:explicit>
+            <itunes:duration>00:12:59</itunes:duration>
+        </item>
+        <item>
+            <title>Episode 6: Surreal Ciliates (Part 1)</title>
+            <link>https://archive.org/embed/qgrits-ep-6-surreal-ciliates-pt1</link>
+            <description>
+               Rebecca Zufall (Univ. of Houston) talks about what ciliates are (their looks, genomic architecture, and life history) and where you can find them in part 1 of a 3-part conversation. 
+            </description>
+            <guid isPermaLink="true">https://archive.org/embed/qgrits-ep-6-surreal-ciliates-pt1</guid>
+            <pubDate>Tue, 15 Feb 2022 00:00:01 CST</pubDate>
+            <media:content
+                medium="audio"
+                url="https://ia801501.us.archive.org/31/items/qgrits-ep-6-surreal-ciliates-pt1/Ep6_CiliatesPart1_SurrealCiliates_11-21.mp3"
+                type="audio/mpeg"
+                isDefault="true"
+                expression="full"
+                duration="1108">
+                <media:title type="plain">Episode 6: Surreal Ciliates Part 1</media:title>
+                <media:description>
+                  Rebecca Zufall (Univ. of Houston) talks about what ciliates are (their looks, genomic architecture, and life history) and where you can find them in part 1 of a 3-part conversation.  
+                </media:description>
+                <media:rating scheme="urn:simple">nonadult</media:rating>
+                <media:thumbnail url="randyklabacka.com/quickGRITS/EpisodeThumbnails/Ep6_Ciliates.png"/>
+                <media:keywords>
+                    Evolution, biology, microbiology, ciliates, protists, science
+                </media:keywords>
+            </media:content>
+            <enclosure url="https://ia801501.us.archive.org/31/items/qgrits-ep-6-surreal-ciliates-pt1/Ep6_CiliatesPart1_SurrealCiliates_11-21.mp3" length="17727656" type="audio/mp3"/>
+            <itunes:image href="https://randyklabacka.com/quickGRITS/qgThumbnail.png"/>
+            <itunes:explicit>clean</itunes:explicit>
+            <itunes:duration>00:18:28</itunes:duration>
+        </item>
+        <item>
             <title>Episode 5: Harvesters (Part 2)</title>
             <link>https://archive.org/embed/qgrits-ep-5-harvesters-pt2</link>
             <description>
